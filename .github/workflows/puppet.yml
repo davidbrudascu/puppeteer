@@ -18,6 +18,5 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
       - run: npm install
-      - run: npm test
       - run: node index.js
       - run: ls
