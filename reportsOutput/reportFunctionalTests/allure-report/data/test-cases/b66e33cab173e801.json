@@ -1,0 +1,941 @@
+{
+  "uid" : "b66e33cab173e801",
+  "name" : "User can verify restriction and delete an user journey",
+  "fullName" : "User Journey:.User can verify restriction and delete an user journey",
+  "historyId" : "2569bc9d1cc77cf1049e76b5cc6df7dc",
+  "time" : {
+    "start" : 1622418192572,
+    "stop" : 1622418219593,
+    "duration" : 27021
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "I am on page \"_Designer/Account/LogOn\"",
+      "time" : {
+        "start" : 1622418192844,
+        "stop" : 1622418193701,
+        "duration" : 857
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible {\"class\":\"dx-loadindicator\"}, 20",
+      "time" : {
+        "start" : 1622418193701,
+        "stop" : 1622418193704,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible \"#osloader\", 20",
+      "time" : {
+        "start" : 1622418193704,
+        "stop" : 1622418193711,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible #usernameField, 20",
+      "time" : {
+        "start" : 1622418193711,
+        "stop" : 1622418193715,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I fill field #usernameField, \"host\"",
+      "time" : {
+        "start" : 1622418193827,
+        "stop" : 1622418194216,
+        "duration" : 389
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I fill field \"#passwordField\", \"1234567\"",
+      "time" : {
+        "start" : 1622418194327,
+        "stop" : 1622418194772,
+        "duration" : 445
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for clickable \".btn-login\", 20",
+      "time" : {
+        "start" : 1622418194772,
+        "stop" : 1622418194778,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click \".btn-login\"",
+      "time" : {
+        "start" : 1622418194882,
+        "stop" : 1622418195226,
+        "duration" : 344
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//span[contains(., 'My account')][ancestor::div[@class = 'account-footer']]}, 60",
+      "time" : {
+        "start" : 1622418195226,
+        "stop" : 1622418195639,
+        "duration" : 413
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I am on page \"_Designer/Main#/customaction/d1afd972-7462-4eec-ad11-3b19f98657b6\"",
+      "time" : {
+        "start" : 1622418195639,
+        "stop" : 1622418196732,
+        "duration" : 1093
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible {\"class\":\"dx-loadindicator\"}, 20",
+      "time" : {
+        "start" : 1622418196732,
+        "stop" : 1622418196735,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible \"#osloader\", 20",
+      "time" : {
+        "start" : 1622418196735,
+        "stop" : 1622418196737,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible \"div#ftosFormJourneysHolder > div > div:nth-of-type(5) > div > table > tbody > tr:nth-of-type(2) > td:nth-of-type(2) > div > div:nth-of-type(2) > div > div > div > input\", 20",
+      "time" : {
+        "start" : 1622418196737,
+        "stop" : 1622418196741,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I fill field \"div#ftosFormJourneysHolder > div > div:nth-of-type(5) > div > table > tbody > tr:nth-of-type(2) > td:nth-of-type(2) > div > div:nth-of-type(2) > div > div > div > input\", \"AT_UJDeleteUJ\"",
+      "time" : {
+        "start" : 1622418196843,
+        "stop" : 1622418200158,
+        "duration" : 3315
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait 3",
+      "time" : {
+        "start" : 1622418200158,
+        "stop" : 1622418203171,
+        "duration" : 3013
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible \"div#ftosFormJourneysHolder > div > div:nth-of-type(6) > div > table > tbody > tr > td:nth-of-type(2)\", 20",
+      "time" : {
+        "start" : 1622418203171,
+        "stop" : 1622418203187,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see \"AT_UJDeleteUJ\", \"div#ftosFormJourneysHolder > div > div:nth-of-type(6) > div > table > tbody > tr > td:nth-of-type(2)\"",
+      "time" : {
+        "start" : 1622418203187,
+        "stop" : 1622418203207,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click \".dx-command-select\"",
+      "time" : {
+        "start" : 1622418203311,
+        "stop" : 1622418203669,
+        "duration" : 358
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: .//button[@id = 'deleteCustomUJBtn']}",
+      "time" : {
+        "start" : 1622418203777,
+        "stop" : 1622418204132,
+        "duration" : 355
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible \".dx-button-default.dx-button-mode-contained.dx-widget.dx-button-has-text\", 20",
+      "time" : {
+        "start" : 1622418204132,
+        "stop" : 1622418204137,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click \".dx-button-default.dx-button-mode-contained.dx-widget.dx-button-has-text\"",
+      "time" : {
+        "start" : 1622418204240,
+        "stop" : 1622418204600,
+        "duration" : 360
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//*[contains(concat(' ', normalize-space(./@class), ' '), ' jq-icon-error ')][ancestor::*[contains(concat(' ', normalize-space(./@class), ' '), ' jq-toast-wrap ')]]}, 60",
+      "time" : {
+        "start" : 1622418204601,
+        "stop" : 1622418204608,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for clickable {xpath: .//*[contains(concat(' ', normalize-space(./@class), ' '), ' jq-icon-error ')][ancestor::*[contains(concat(' ', normalize-space(./@class), ' '), ' jq-toast-wrap ')]]}, 20",
+      "time" : {
+        "start" : 1622418204608,
+        "stop" : 1622418204615,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//*[contains(concat(' ', normalize-space(./@class), ' '), ' jq-icon-error ')][contains(., 'The default Form cannot be deleted.')][ancestor::*[contains(concat(' ', normalize-space(./@class), ' '), ' jq-toast-wrap ')]]}",
+      "time" : {
+        "start" : 1622418204615,
+        "stop" : 1622418204619,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I am on page \"_Designer/Main#/entity/entityform/edit/0ce640f6-44fc-4428-9d6f-0241f5f53d39/form/basicForm/pageno/0\"",
+      "time" : {
+        "start" : 1622418204619,
+        "stop" : 1622418204732,
+        "duration" : 113
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible {\"class\":\"dx-loadindicator\"}, 20",
+      "time" : {
+        "start" : 1622418204732,
+        "stop" : 1622418204740,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible \"#osloader\", 20",
+      "time" : {
+        "start" : 1622418204740,
+        "stop" : 1622418204743,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I am on page \"_Designer/Main#/entity/entityform/edit/0ce640f6-44fc-4428-9d6f-0241f5f53d39/form/basicForm/pageno/0\"",
+      "time" : {
+        "start" : 1622418204743,
+        "stop" : 1622418207194,
+        "duration" : 2451
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible {\"class\":\"dx-loadindicator\"}, 20",
+      "time" : {
+        "start" : 1622418207194,
+        "stop" : 1622418207198,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible \"#osloader\", 20",
+      "time" : {
+        "start" : 1622418207198,
+        "stop" : 1622418207199,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//div[contains(., 'Auto Generate Template Type')]}, 20",
+      "time" : {
+        "start" : 1622418207200,
+        "stop" : 1622418207205,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//span[@class = 'dx-checkbox-icon'][ancestor::div[@id = 'ebsContainerContent_isdefault']]}, 20",
+      "time" : {
+        "start" : 1622418207205,
+        "stop" : 1622418207209,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: .//span[@class = 'dx-checkbox-icon'][ancestor::div[@id = 'ebsContainerContent_isdefault']]}",
+      "time" : {
+        "start" : 1622418207321,
+        "stop" : 1622418207679,
+        "duration" : 358
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible {\"class\":\"dx-loadindicator\"}, 20",
+      "time" : {
+        "start" : 1622418207679,
+        "stop" : 1622418207682,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible \"#osloader\", 20",
+      "time" : {
+        "start" : 1622418207682,
+        "stop" : 1622418207685,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible \"#SaveBtn\", 20",
+      "time" : {
+        "start" : 1622418207685,
+        "stop" : 1622418207688,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for clickable \"#SaveBtn\", 20",
+      "time" : {
+        "start" : 1622418207688,
+        "stop" : 1622418207692,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I move cursor to \"#SaveBtn\"",
+      "time" : {
+        "start" : 1622418207692,
+        "stop" : 1622418207818,
+        "duration" : 126
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click \"#SaveBtn\"",
+      "time" : {
+        "start" : 1622418207927,
+        "stop" : 1622418208268,
+        "duration" : 341
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible {\"class\":\"dx-loadindicator\"}, 20",
+      "time" : {
+        "start" : 1622418208268,
+        "stop" : 1622418208273,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible \"#osloader\", 20",
+      "time" : {
+        "start" : 1622418208273,
+        "stop" : 1622418208277,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//*[contains(concat(' ', normalize-space(./@class), ' '), ' jq-icon-success ')][ancestor::*[contains(concat(' ', normalize-space(./@class), ' '), ' jq-toast-wrap ')]]}, 60",
+      "time" : {
+        "start" : 1622418208277,
+        "stop" : 1622418208396,
+        "duration" : 119
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for clickable {xpath: .//*[contains(concat(' ', normalize-space(./@class), ' '), ' jq-icon-success ')][ancestor::*[contains(concat(' ', normalize-space(./@class), ' '), ' jq-toast-wrap ')]]}, 20",
+      "time" : {
+        "start" : 1622418208396,
+        "stop" : 1622418208401,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible {xpath: .//*[contains(concat(' ', normalize-space(./@class), ' '), ' jq-icon-success ')][ancestor::*[contains(concat(' ', normalize-space(./@class), ' '), ' jq-toast-wrap ')]]}, 20",
+      "time" : {
+        "start" : 1622418208401,
+        "stop" : 1622418211393,
+        "duration" : 2992
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: .//button[@id = 'deleteCustomUJBtn']}",
+      "time" : {
+        "start" : 1622418211502,
+        "stop" : 1622418211849,
+        "duration" : 347
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible \".dx-button-default.dx-button-mode-contained.dx-widget.dx-button-has-text\", 20",
+      "time" : {
+        "start" : 1622418211849,
+        "stop" : 1622418211854,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click \".dx-button-default.dx-button-mode-contained.dx-widget.dx-button-has-text\"",
+      "time" : {
+        "start" : 1622418211956,
+        "stop" : 1622418212315,
+        "duration" : 359
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I fill field \"div#ftosFormJourneysHolder > div > div:nth-of-type(5) > div > table > tbody > tr:nth-of-type(2) > td:nth-of-type(2) > div > div:nth-of-type(2) > div > div > div > input\", \"AT_UJDeleteUJ\"",
+      "time" : {
+        "start" : 1622418212424,
+        "stop" : 1622418215644,
+        "duration" : 3220
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait 3",
+      "time" : {
+        "start" : 1622418215644,
+        "stop" : 1622418218648,
+        "duration" : 3004
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible \".dx-datagrid-nodata\", 20",
+      "time" : {
+        "start" : 1622418218648,
+        "stop" : 1622418218654,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see \"No data\", \".dx-datagrid-nodata\"",
+      "time" : {
+        "start" : 1622418218654,
+        "stop" : 1622418218658,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible {\"class\":\"dx-loadindicator\"}, 20",
+      "time" : {
+        "start" : 1622418218658,
+        "stop" : 1622418218660,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible \"#osloader\", 20",
+      "time" : {
+        "start" : 1622418218660,
+        "stop" : 1622418218660,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//a[@data-toggle = 'dropdown']}, 20",
+      "time" : {
+        "start" : 1622418218661,
+        "stop" : 1622418218662,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: .//a[@data-toggle = 'dropdown']}",
+      "time" : {
+        "start" : 1622418218773,
+        "stop" : 1622418219133,
+        "duration" : 360
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//a[@class = 'log-off-link'][ancestor::div[@class = 'account-footer']]}, 20",
+      "time" : {
+        "start" : 1622418219133,
+        "stop" : 1622418219138,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for clickable {xpath: .//a[@class = 'log-off-link'][ancestor::div[@class = 'account-footer']]}, 20",
+      "time" : {
+        "start" : 1622418219138,
+        "stop" : 1622418219143,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: .//a[@class = 'log-off-link'][ancestor::div[@class = 'account-footer']]}",
+      "time" : {
+        "start" : 1622418219244,
+        "stop" : 1622418219586,
+        "duration" : 342
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible \".btn-login\", 20",
+      "time" : {
+        "start" : 1622418219587,
+        "stop" : 1622418219593,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 59,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "User Journey:"
+  }, {
+    "name" : "testClass",
+    "value" : "User Journey:"
+  }, {
+    "name" : "testMethod",
+    "value" : "User can verify restriction and delete an user journey"
+  }, {
+    "name" : "package",
+    "value" : "User Journey:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b66e33cab173e801.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,1016 @@
+{
+  "uid" : "3c6b3f648ca88ebd",
+  "name" : "User audit delete business entity",
+  "fullName" : "Audit Business Entity:.User audit delete business entity",
+  "historyId" : "45d7cb243a8bb5a7e4cd3d75a70fdcca",
+  "time" : {
+    "start" : 1622412468824,
+    "stop" : 1622412488797,
+    "duration" : 19973
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "I am on page \"_Portal/Account/LogOn\"",
+      "time" : {
+        "start" : 1622412469103,
+        "stop" : 1622412470212,
+        "duration" : 1109
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible {\"class\":\"dx-loadindicator\"}, 20",
+      "time" : {
+        "start" : 1622412470213,
+        "stop" : 1622412470216,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible \"#osloader\", 20",
+      "time" : {
+        "start" : 1622412470216,
+        "stop" : 1622412470218,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible #usernameField, 20",
+      "time" : {
+        "start" : 1622412470218,
+        "stop" : 1622412470225,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I fill field #usernameField, \"host\"",
+      "time" : {
+        "start" : 1622412470338,
+        "stop" : 1622412470728,
+        "duration" : 390
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I fill field \"#passwordField\", \"1234567\"",
+      "time" : {
+        "start" : 1622412470836,
+        "stop" : 1622412471272,
+        "duration" : 436
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for clickable \".btn-login\", 20",
+      "time" : {
+        "start" : 1622412471272,
+        "stop" : 1622412471279,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click \".btn-login\"",
+      "time" : {
+        "start" : 1622412471379,
+        "stop" : 1622412471724,
+        "duration" : 345
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//span[contains(., 'My account')][ancestor::div[@class = 'account-footer']]}, 60",
+      "time" : {
+        "start" : 1622412471724,
+        "stop" : 1622412472167,
+        "duration" : 443
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I am on page \"_Portal/Main#/entity/AT_AuditDelete/list\"",
+      "time" : {
+        "start" : 1622412472167,
+        "stop" : 1622412473294,
+        "duration" : 1127
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible {\"class\":\"dx-loadindicator\"}, 20",
+      "time" : {
+        "start" : 1622412473294,
+        "stop" : 1622412473297,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible \"#osloader\", 20",
+      "time" : {
+        "start" : 1622412473297,
+        "stop" : 1622412473299,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//td[contains(., 'AT for Delete')][ancestor::tr]}, 20",
+      "time" : {
+        "start" : 1622412473299,
+        "stop" : 1622412473304,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: (.//td[contains(., 'AT for Delete')][ancestor::tr])[position()=last()-0]}, 20",
+      "time" : {
+        "start" : 1622412473304,
+        "stop" : 1622412473308,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: (.//td[contains(., 'AT for Delete')][ancestor::tr])[position()=last()-0]}",
+      "time" : {
+        "start" : 1622412473420,
+        "stop" : 1622412473798,
+        "duration" : 378
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I execute script (container) => $(container).data('dxDataGrid').getSelectedRowKeys()[0], \"#ebsContainerContent\"",
+      "time" : {
+        "start" : 1622412473799,
+        "stop" : 1622412473801,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible \".dx-command-select\", 20",
+      "time" : {
+        "start" : 1622412473802,
+        "stop" : 1622412473806,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click \".dx-command-select\"",
+      "time" : {
+        "start" : 1622412473910,
+        "stop" : 1622412474258,
+        "duration" : 348
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible \".dx-command-select\", 20",
+      "time" : {
+        "start" : 1622412474258,
+        "stop" : 1622412474263,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click \".dx-command-select\"",
+      "time" : {
+        "start" : 1622412474368,
+        "stop" : 1622412474731,
+        "duration" : 363
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click \"#DeleteBtn\"",
+      "time" : {
+        "start" : 1622412474843,
+        "stop" : 1622412475189,
+        "duration" : 346
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible \".dx-button-default.dx-button-mode-contained.dx-widget.dx-button-has-text\", 20",
+      "time" : {
+        "start" : 1622412475189,
+        "stop" : 1622412475211,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click \".dx-button-default.dx-button-mode-contained.dx-widget.dx-button-has-text\"",
+      "time" : {
+        "start" : 1622412475316,
+        "stop" : 1622412475677,
+        "duration" : 361
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible \".dx-datagrid-nodata\", 20",
+      "time" : {
+        "start" : 1622412475677,
+        "stop" : 1622412475684,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see \"No data\", \".dx-datagrid-nodata\"",
+      "time" : {
+        "start" : 1622412475684,
+        "stop" : 1622412475688,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible \"#HistoryBtn\", 20",
+      "time" : {
+        "start" : 1622412475689,
+        "stop" : 1622412475691,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click \"#HistoryBtn\"",
+      "time" : {
+        "start" : 1622412475803,
+        "stop" : 1622412476148,
+        "duration" : 345
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: (.//td[contains(., 'Delete')][ancestor::tr])[position()=last()-0]}, 20",
+      "time" : {
+        "start" : 1622412476149,
+        "stop" : 1622412476350,
+        "duration" : 201
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: (.//td[contains(., 'Delete')][ancestor::tr])[position()=last()-0]}",
+      "time" : {
+        "start" : 1622412476463,
+        "stop" : 1622412476811,
+        "duration" : 348
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible \"#ebsContainerContent\", 20",
+      "time" : {
+        "start" : 1622412476811,
+        "stop" : 1622412476816,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I execute script (container) => $(container).data('dxDataGrid').getSelectedRowKeys()[0], \"#ebsContainerContent\"",
+      "time" : {
+        "start" : 1622412476816,
+        "stop" : 1622412476817,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I am on page \"_Portal/Main#/entity/AT_AuditDelete_ADT/edit/9610edb6-cd2b-4a90-9f96-15fa543e56b2\"",
+      "time" : {
+        "start" : 1622412476817,
+        "stop" : 1622412476929,
+        "duration" : 112
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible {\"class\":\"dx-loadindicator\"}, 20",
+      "time" : {
+        "start" : 1622412476929,
+        "stop" : 1622412476931,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible \"#osloader\", 20",
+      "time" : {
+        "start" : 1622412476931,
+        "stop" : 1622412476932,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible \"#ebsContainerContent__originalName div div input\", 20",
+      "time" : {
+        "start" : 1622412476932,
+        "stop" : 1622412477018,
+        "duration" : 86
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I grab value from \"#ebsContainerContent__originalName div div input\"",
+      "time" : {
+        "start" : 1622412477018,
+        "stop" : 1622412477022,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I assert , ",
+      "time" : {
+        "start" : 1622412477022,
+        "stop" : 1622412477022,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//*[./@id = 'ebsContainerContent__originalName']//div//div//input[@aria-readonly = 'true']}",
+      "time" : {
+        "start" : 1622412477023,
+        "stop" : 1622412477058,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible \"div#ebsContainerContent__ADTedUserId_textBox > div > div > input\", 20",
+      "time" : {
+        "start" : 1622412477058,
+        "stop" : 1622412477139,
+        "duration" : 81
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I grab value from \"div#ebsContainerContent__ADTedUserId_textBox > div > div > input\"",
+      "time" : {
+        "start" : 1622412477139,
+        "stop" : 1622412479258,
+        "duration" : 2119
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I assert \"host\", \"host\"",
+      "time" : {
+        "start" : 1622412479258,
+        "stop" : 1622412479258,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//div[./@id = 'ebsContainerContent__ADTedUserId_textBox']/div/div/input[@aria-readonly = 'true']}",
+      "time" : {
+        "start" : 1622412479258,
+        "stop" : 1622412479261,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible \"div#ebsContainerContent__entityId_textBox > div > div > input\", 20",
+      "time" : {
+        "start" : 1622412479261,
+        "stop" : 1622412479263,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I grab value from \"div#ebsContainerContent__entityId_textBox > div > div > input\"",
+      "time" : {
+        "start" : 1622412479263,
+        "stop" : 1622412481382,
+        "duration" : 2119
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I assert \"AT_AuditDelete\", \"AT_AuditDelete\"",
+      "time" : {
+        "start" : 1622412481382,
+        "stop" : 1622412481383,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//div[./@id = 'ebsContainerContent__entityId_textBox']/div/div/input[@aria-readonly = 'true']}",
+      "time" : {
+        "start" : 1622412481383,
+        "stop" : 1622412481387,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible \"div#ebsContainerContent__AT_AuditDeleteid > div > div > input\", 20",
+      "time" : {
+        "start" : 1622412481387,
+        "stop" : 1622412481390,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I grab value from \"div#ebsContainerContent__AT_AuditDeleteid > div > div > input\"",
+      "time" : {
+        "start" : 1622412481390,
+        "stop" : 1622412483447,
+        "duration" : 2057
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I assert \"a220c356-549b-4481-9b0f-c56251976daf\", \"a220c356-549b-4481-9b0f-c56251976daf\"",
+      "time" : {
+        "start" : 1622412483447,
+        "stop" : 1622412483448,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible \"div#ebsContainerContent__operationName > div > div > input\", 20",
+      "time" : {
+        "start" : 1622412483448,
+        "stop" : 1622412483449,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I grab value from \"div#ebsContainerContent__operationName > div > div > input\"",
+      "time" : {
+        "start" : 1622412483449,
+        "stop" : 1622412485620,
+        "duration" : 2171
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I assert \"Delete\", \"Delete\"",
+      "time" : {
+        "start" : 1622412485620,
+        "stop" : 1622412485620,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//div[./@id = 'ebsContainerContent__operationName']/div/div/input[@aria-readonly = 'true']}",
+      "time" : {
+        "start" : 1622412485620,
+        "stop" : 1622412485623,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible \"div#ebsContainerContent__ADTedName > div > div > input\", 20",
+      "time" : {
+        "start" : 1622412485623,
+        "stop" : 1622412485625,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I grab value from \"div#ebsContainerContent__ADTedName > div > div > input\"",
+      "time" : {
+        "start" : 1622412485625,
+        "stop" : 1622412487843,
+        "duration" : 2218
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I assert , ",
+      "time" : {
+        "start" : 1622412487844,
+        "stop" : 1622412487845,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible {\"class\":\"dx-loadindicator\"}, 20",
+      "time" : {
+        "start" : 1622412487845,
+        "stop" : 1622412487846,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible \"#osloader\", 20",
+      "time" : {
+        "start" : 1622412487846,
+        "stop" : 1622412487847,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//a[@data-toggle = 'dropdown']}, 20",
+      "time" : {
+        "start" : 1622412487847,
+        "stop" : 1622412487849,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: .//a[@data-toggle = 'dropdown']}",
+      "time" : {
+        "start" : 1622412487955,
+        "stop" : 1622412488335,
+        "duration" : 380
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//a[@class = 'log-off-link'][ancestor::div[@class = 'account-footer']]}, 20",
+      "time" : {
+        "start" : 1622412488335,
+        "stop" : 1622412488340,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for clickable {xpath: .//a[@class = 'log-off-link'][ancestor::div[@class = 'account-footer']]}, 20",
+      "time" : {
+        "start" : 1622412488340,
+        "stop" : 1622412488343,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: .//a[@class = 'log-off-link'][ancestor::div[@class = 'account-footer']]}",
+      "time" : {
+        "start" : 1622412488445,
+        "stop" : 1622412488792,
+        "duration" : 347
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible \".btn-login\", 20",
+      "time" : {
+        "start" : 1622412488792,
+        "stop" : 1622412488797,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 64,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Audit Business Entity:"
+  }, {
+    "name" : "testClass",
+    "value" : "Audit Business Entity:"
+  }, {
+    "name" : "testMethod",
+    "value" : "User audit delete business entity"
+  }, {
+    "name" : "package",
+    "value" : "Audit Business Entity:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3c6b3f648ca88ebd.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,836 @@
+{
+  "uid" : "cd19479c94b33564",
+  "name" : "User can search and filter by a date attribute data view",
+  "fullName" : "View:.User can search and filter by a date attribute data view",
+  "historyId" : "61b8c768d7560c847a460e3af753674a",
+  "time" : {
+    "start" : 1622418815817,
+    "stop" : 1622418828557,
+    "duration" : 12740
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "I am on page \"_Portal/Account/LogOn\"",
+      "time" : {
+        "start" : 1622418816102,
+        "stop" : 1622418817186,
+        "duration" : 1084
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible {\"class\":\"dx-loadindicator\"}, 20",
+      "time" : {
+        "start" : 1622418817186,
+        "stop" : 1622418817189,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible \"#osloader\", 20",
+      "time" : {
+        "start" : 1622418817189,
+        "stop" : 1622418817191,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible #usernameField, 20",
+      "time" : {
+        "start" : 1622418817191,
+        "stop" : 1622418817199,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I fill field #usernameField, \"host\"",
+      "time" : {
+        "start" : 1622418817314,
+        "stop" : 1622418817706,
+        "duration" : 392
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I fill field \"#passwordField\", \"1234567\"",
+      "time" : {
+        "start" : 1622418817819,
+        "stop" : 1622418818262,
+        "duration" : 443
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for clickable \".btn-login\", 20",
+      "time" : {
+        "start" : 1622418818262,
+        "stop" : 1622418818269,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click \".btn-login\"",
+      "time" : {
+        "start" : 1622418818372,
+        "stop" : 1622418818716,
+        "duration" : 344
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//span[contains(., 'My account')][ancestor::div[@class = 'account-footer']]}, 60",
+      "time" : {
+        "start" : 1622418818717,
+        "stop" : 1622418819202,
+        "duration" : 485
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I am on page \"_Portal/Main#/entity/AT_SearchResultDate/list/\"",
+      "time" : {
+        "start" : 1622418819202,
+        "stop" : 1622418820325,
+        "duration" : 1123
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible {\"class\":\"dx-loadindicator\"}, 20",
+      "time" : {
+        "start" : 1622418820325,
+        "stop" : 1622418820328,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible \"#osloader\", 20",
+      "time" : {
+        "start" : 1622418820328,
+        "stop" : 1622418820330,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//input[@type = 'text'][ancestor::td[@aria-label = 'Column DoB, Filter cell']]}, 20",
+      "time" : {
+        "start" : 1622418820330,
+        "stop" : 1622418820335,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I move cursor to {xpath: .//span[@class = 'dx-menu-item-popout-container'][ancestor::td[@aria-label = 'Column DoB, Filter cell']]}",
+      "time" : {
+        "start" : 1622418820335,
+        "stop" : 1622418820464,
+        "duration" : 129
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click .dx-icon-filter-operation-less",
+      "time" : {
+        "start" : 1622418820572,
+        "stop" : 1622418820949,
+        "duration" : 377
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I fill field {xpath: .//input[@type = 'text'][ancestor::td[@aria-label = 'Column DoB, Filter cell']]}, \"01/01/2000\"",
+      "time" : {
+        "start" : 1622418821059,
+        "stop" : 1622418821549,
+        "duration" : 490
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click #modelType",
+      "time" : {
+        "start" : 1622418821659,
+        "stop" : 1622418822022,
+        "duration" : 363
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//td[contains(., 'Auto 3')][ancestor::tr[@aria-rowindex = '1']]}, 20",
+      "time" : {
+        "start" : 1622418822022,
+        "stop" : 1622418822027,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//tr[@aria-rowindex = '1']}, 20",
+      "time" : {
+        "start" : 1622418822027,
+        "stop" : 1622418822030,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible {xpath: .//tr[@aria-rowindex = '2']}, 20",
+      "time" : {
+        "start" : 1622418822030,
+        "stop" : 1622418822031,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I move cursor to {xpath: .//span[@class = 'dx-menu-item-popout-container'][ancestor::td[@aria-label = 'Column DoB, Filter cell']]}",
+      "time" : {
+        "start" : 1622418822031,
+        "stop" : 1622418822163,
+        "duration" : 132
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click .dx-icon-filter-operation-greater",
+      "time" : {
+        "start" : 1622418822274,
+        "stop" : 1622418822637,
+        "duration" : 363
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I fill field {xpath: .//input[@type = 'text'][ancestor::td[@aria-label = 'Column DoB, Filter cell']]}, \"01/01/2000\"",
+      "time" : {
+        "start" : 1622418822748,
+        "stop" : 1622418823238,
+        "duration" : 490
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click #modelType",
+      "time" : {
+        "start" : 1622418823350,
+        "stop" : 1622418823701,
+        "duration" : 351
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//td[contains(., 'Auto 1')][ancestor::tr[@aria-rowindex = '1']]}, 20",
+      "time" : {
+        "start" : 1622418823702,
+        "stop" : 1622418823706,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//td[contains(., 'Auto 2')][ancestor::tr[@aria-rowindex = '2']]}, 20",
+      "time" : {
+        "start" : 1622418823706,
+        "stop" : 1622418823709,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//tr[@aria-rowindex = '2']}, 20",
+      "time" : {
+        "start" : 1622418823709,
+        "stop" : 1622418823711,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible {xpath: .//tr[@aria-rowindex = '3']}, 20",
+      "time" : {
+        "start" : 1622418823711,
+        "stop" : 1622418823712,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I move cursor to {xpath: .//span[@class = 'dx-menu-item-popout-container'][ancestor::td[@aria-label = 'Column DoB, Filter cell']]}",
+      "time" : {
+        "start" : 1622418823712,
+        "stop" : 1622418823843,
+        "duration" : 131
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click .dx-icon-filter-operation-between",
+      "time" : {
+        "start" : 1622418823953,
+        "stop" : 1622418824343,
+        "duration" : 390
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I fill field {xpath: .//input[@type = 'text'][ancestor::*[contains(concat(' ', normalize-space(./@class), ' '), ' dx-datagrid-filter-range-start ')]]}, \"01/02/2010\"",
+      "time" : {
+        "start" : 1622418824452,
+        "stop" : 1622418824943,
+        "duration" : 491
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I fill field {xpath: .//input[@type = 'text'][ancestor::*[contains(concat(' ', normalize-space(./@class), ' '), ' dx-datagrid-filter-range-end ')]]}, \"01/02/2020\"",
+      "time" : {
+        "start" : 1622418825054,
+        "stop" : 1622418825589,
+        "duration" : 535
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click #modelType",
+      "time" : {
+        "start" : 1622418825699,
+        "stop" : 1622418826079,
+        "duration" : 380
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//td[contains(., 'Auto 2')][ancestor::tr[@aria-rowindex = '1']]}, 20",
+      "time" : {
+        "start" : 1622418826079,
+        "stop" : 1622418826084,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//tr[@aria-rowindex = '1']}, 20",
+      "time" : {
+        "start" : 1622418826084,
+        "stop" : 1622418826087,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible {xpath: .//tr[@aria-rowindex = '2']}, 20",
+      "time" : {
+        "start" : 1622418826087,
+        "stop" : 1622418826088,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: .//div[contains(., 'DoB')][ancestor::td[@role = 'columnheader']]}",
+      "time" : {
+        "start" : 1622418826189,
+        "stop" : 1622418826535,
+        "duration" : 346
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I move cursor to {xpath: .//span[@class = 'dx-menu-item-popout-container'][ancestor::td[@aria-label = 'Column DoB, Filter cell']]}",
+      "time" : {
+        "start" : 1622418826535,
+        "stop" : 1622418826662,
+        "duration" : 127
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: (.//*[contains(concat(' ', normalize-space(./@class), ' '), ' dx-icon-filter-operation-default ')])[position()=last()-0]}",
+      "time" : {
+        "start" : 1622418826773,
+        "stop" : 1622418827136,
+        "duration" : 363
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//td[contains(., 'Auto 3')][ancestor::tr[@aria-rowindex = '1']]}, 20",
+      "time" : {
+        "start" : 1622418827136,
+        "stop" : 1622418827141,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//td[contains(., '31/12/1999')][@aria-colindex = '3'][ancestor::tr[@aria-rowindex = '1']]}, 20",
+      "time" : {
+        "start" : 1622418827141,
+        "stop" : 1622418827144,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: .//div[contains(., 'DoB')][ancestor::td[@role = 'columnheader']]}",
+      "time" : {
+        "start" : 1622418827245,
+        "stop" : 1622418827607,
+        "duration" : 362
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//td[contains(., 'Auto 2')][ancestor::tr[@aria-rowindex = '1']]}, 20",
+      "time" : {
+        "start" : 1622418827608,
+        "stop" : 1622418827613,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//td[contains(., '31/12/2010')][@aria-colindex = '3'][ancestor::tr[@aria-rowindex = '1']]}, 20",
+      "time" : {
+        "start" : 1622418827613,
+        "stop" : 1622418827617,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible {\"class\":\"dx-loadindicator\"}, 20",
+      "time" : {
+        "start" : 1622418827617,
+        "stop" : 1622418827618,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible \"#osloader\", 20",
+      "time" : {
+        "start" : 1622418827618,
+        "stop" : 1622418827618,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//a[@data-toggle = 'dropdown']}, 20",
+      "time" : {
+        "start" : 1622418827619,
+        "stop" : 1622418827620,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: .//a[@data-toggle = 'dropdown']}",
+      "time" : {
+        "start" : 1622418827733,
+        "stop" : 1622418828096,
+        "duration" : 363
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//a[@class = 'log-off-link'][ancestor::div[@class = 'account-footer']]}, 20",
+      "time" : {
+        "start" : 1622418828096,
+        "stop" : 1622418828102,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for clickable {xpath: .//a[@class = 'log-off-link'][ancestor::div[@class = 'account-footer']]}, 20",
+      "time" : {
+        "start" : 1622418828102,
+        "stop" : 1622418828105,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: .//a[@class = 'log-off-link'][ancestor::div[@class = 'account-footer']]}",
+      "time" : {
+        "start" : 1622418828207,
+        "stop" : 1622418828552,
+        "duration" : 345
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible \".btn-login\", 20",
+      "time" : {
+        "start" : 1622418828552,
+        "stop" : 1622418828557,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 52,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "View:"
+  }, {
+    "name" : "testClass",
+    "value" : "View:"
+  }, {
+    "name" : "testMethod",
+    "value" : "User can search and filter by a date attribute data view"
+  }, {
+    "name" : "package",
+    "value" : "View:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cd19479c94b33564.json",
+  "parameterValues" : [ ]
+}

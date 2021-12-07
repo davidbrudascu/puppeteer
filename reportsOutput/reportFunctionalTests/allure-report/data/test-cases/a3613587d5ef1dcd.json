@@ -1,0 +1,415 @@
+{
+  "uid" : "a3613587d5ef1dcd",
+  "name" : "Data export - Attribute Type",
+  "fullName" : "Data Import/Export:.Data export - Attribute Type",
+  "historyId" : "839ef25442d7da4dcabc6f56fa0aec1f",
+  "time" : {
+    "start" : 1622412188889,
+    "stop" : 1622412194819,
+    "duration" : 5930
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "EISDIR: illegal operation on a directory, read",
+  "statusTrace" : "Error: EISDIR: illegal operation on a directory, read\n                    at Object.readSync (fs.js:506:3)\n                    at tryReadSync (fs.js:331:20)\n                    at Object.readFileSync (fs.js:368:19)\n                    at Object.extractAndMapColumnsFromExcelFile (C:\\Work\\GitHub\\AutomatedTests\\framework\\actionDefinitions\\files\\fileVerify.js:104:23)\n                    at Object.verifyValuesInTableFromExcelFile (C:\\Work\\GitHub\\AutomatedTests\\framework\\actionDefinitions\\files\\fileVerify.js:28:38)\n                    at Test.<anonymous> (C:\\Work\\GitHub\\AutomatedTests\\ftosCore\\testScenarios\\dataImportExport\\TC005_exportDataAttrType.js:33:20)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "EISDIR: illegal operation on a directory, read",
+    "statusTrace" : "Error: EISDIR: illegal operation on a directory, read\n                    at Object.readSync (fs.js:506:3)\n                    at tryReadSync (fs.js:331:20)\n                    at Object.readFileSync (fs.js:368:19)\n                    at Object.extractAndMapColumnsFromExcelFile (C:\\Work\\GitHub\\AutomatedTests\\framework\\actionDefinitions\\files\\fileVerify.js:104:23)\n                    at Object.verifyValuesInTableFromExcelFile (C:\\Work\\GitHub\\AutomatedTests\\framework\\actionDefinitions\\files\\fileVerify.js:28:38)\n                    at Test.<anonymous> (C:\\Work\\GitHub\\AutomatedTests\\ftosCore\\testScenarios\\dataImportExport\\TC005_exportDataAttrType.js:33:20)",
+    "steps" : [ {
+      "name" : "I am on page \"_Portal/Account/LogOn\"",
+      "time" : {
+        "start" : 1622412189163,
+        "stop" : 1622412190257,
+        "duration" : 1094
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible {\"class\":\"dx-loadindicator\"}, 20",
+      "time" : {
+        "start" : 1622412190257,
+        "stop" : 1622412190261,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible \"#osloader\", 20",
+      "time" : {
+        "start" : 1622412190261,
+        "stop" : 1622412190263,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible #usernameField, 20",
+      "time" : {
+        "start" : 1622412190263,
+        "stop" : 1622412190270,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I fill field #usernameField, \"host\"",
+      "time" : {
+        "start" : 1622412190382,
+        "stop" : 1622412190779,
+        "duration" : 397
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I fill field \"#passwordField\", \"1234567\"",
+      "time" : {
+        "start" : 1622412190889,
+        "stop" : 1622412191331,
+        "duration" : 442
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for clickable \".btn-login\", 20",
+      "time" : {
+        "start" : 1622412191331,
+        "stop" : 1622412191337,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click \".btn-login\"",
+      "time" : {
+        "start" : 1622412191442,
+        "stop" : 1622412191786,
+        "duration" : 344
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//span[contains(., 'My account')][ancestor::div[@class = 'account-footer']]}, 60",
+      "time" : {
+        "start" : 1622412191786,
+        "stop" : 1622412192243,
+        "duration" : 457
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I am on page \"_Portal/Main#/entity/AT_ExportData/list\"",
+      "time" : {
+        "start" : 1622412192243,
+        "stop" : 1622412193390,
+        "duration" : 1147
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible {\"class\":\"dx-loadindicator\"}, 20",
+      "time" : {
+        "start" : 1622412193390,
+        "stop" : 1622412193393,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible \"#osloader\", 20",
+      "time" : {
+        "start" : 1622412193393,
+        "stop" : 1622412193395,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I handle downloads ",
+      "time" : {
+        "start" : 1622412193395,
+        "stop" : 1622412193397,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible {\"class\":\"dx-loadindicator\"}, 20",
+      "time" : {
+        "start" : 1622412193397,
+        "stop" : 1622412193399,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible \"#osloader\", 20",
+      "time" : {
+        "start" : 1622412193399,
+        "stop" : 1622412193400,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible #ExportBtn, 20",
+      "time" : {
+        "start" : 1622412193401,
+        "stop" : 1622412193406,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for clickable #ExportBtn, 20",
+      "time" : {
+        "start" : 1622412193406,
+        "stop" : 1622412193410,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click #ExportBtn",
+      "time" : {
+        "start" : 1622412193518,
+        "stop" : 1622412193898,
+        "duration" : 380
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: (.//div[contains(., 'Export current set')][ancestor::*[contains(concat(' ', normalize-space(./@class), ' '), ' dx-list-item ')]])[position()=1]}, 20",
+      "time" : {
+        "start" : 1622412193899,
+        "stop" : 1622412194344,
+        "duration" : 445
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: (.//div[contains(., 'Export current set')][ancestor::*[contains(concat(' ', normalize-space(./@class), ' '), ' dx-list-item ')]])[position()=1]}",
+      "time" : {
+        "start" : 1622412194450,
+        "stop" : 1622412194813,
+        "duration" : 363
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I am in path \"output/downloads\"",
+      "time" : {
+        "start" : 1622412194813,
+        "stop" : 1622412194815,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I grab file names ",
+      "time" : {
+        "start" : 1622412194815,
+        "stop" : 1622412194818,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "C:\\Work\\GitHub\\AutomatedTests/config/output/downloads/",
+      "time" : {
+        "start" : 1622412194818,
+        "stop" : 1622412194818,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "3810ee8dd603407b",
+      "name" : "Last Seen Screenshot",
+      "source" : "3810ee8dd603407b.png",
+      "type" : "image/png",
+      "size" : 1160837
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 23,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Data Import/Export:"
+  }, {
+    "name" : "testClass",
+    "value" : "Data Import/Export:"
+  }, {
+    "name" : "testMethod",
+    "value" : "Data export - Attribute Type"
+  }, {
+    "name" : "package",
+    "value" : "Data Import/Export:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a3613587d5ef1dcd.json",
+  "parameterValues" : [ ]
+}

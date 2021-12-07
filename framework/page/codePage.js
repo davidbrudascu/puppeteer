@@ -1,0 +1,32 @@
+module.exports = {
+  fields: {
+    codeEntityName: locate('input').withAttr({ role: 'textbox' }).inside(locate('div').withAttr({ id: 'ebsContainerContent_Name' })),
+    codeUseVirtualAttribute: locate('div').withAttr({ id: 'ebsContainerContent_useVirtualAttribute' }).withAttr({ role: 'checkbox' }),
+  },
+  buttons: {
+    codeAttributeLookupPopupBtn: locate('div').withAttr({ role: 'button' }).inside(locate('div').withAttr({ id: 'ebsContainerContent_attributeId' })),
+    codeVirtualAttributeLookupPopupBtn: locate('div').withAttr({ role: 'button' }).inside(locate('div').withAttr({ id: 'ebsContainerContent_virtualAttributeId' })),
+    codeLookupLookupPopupBtn: locate('div').withAttr({ role: 'button' }).inside(locate('div').withAttr({ id: 'ebsContainerContent_AT_EntForChangeEventId' })),
+    codeBoolBtns: locate('div').withAttr({ id: 'ebsContainerContent_Bool' }),
+    checkoutCodeAfterGenerateButton: '#afterGenerateJsCheckOutButtonId',
+    checkoutCodeBeforeSaveButton: '#beforeSaveJsCheckOutButtonId',
+    checkoutCodeAfterSaveButton: '#afterSaveJsCheckOutButtonId',
+  },
+  selector: {
+    codeMonacoEditor1: 0,
+    codeMonacoEditor2: 1,
+    codeMonacoEditor3: 2,
+    codeMonacoEditor4: 3,
+    codeBeforeGenerateEditor: locate('div').withAttr({ id: 'ebsContainerContent_beforeGenerateJsmonaco' }),
+    codeAfterGenerateEditor: locate('div').withAttr({ id: 'ebsContainerContent_afterGenerateJsmonaco' }),
+    codeBeforeSaveEditor: locate('div').withAttr({ id: 'ebsContainerContent_beforeSaveJsmonaco' }),
+    codeAfterSaveEditor: locate('div').withAttr({ id: 'ebsContainerContent_afterSaveJsmonaco' }),
+    codeEntityTable: locate('tbody').withAttr({ role: 'presentation' }).inside(locate('div').withAttr({ id: 'ebsContainerContent' })),
+    codeEntityStepsTable: locate('div').withAttr({ id: 'ebsContainerContent_sys_entityformsection_entityform' }),
+    codeAttributeLookupTable: locate('div').withAttr({ id: 'ebsContainerContent_attributeId_popupLkp_lookupgrid' }),
+    codeVirtualAttributeLookupTable: locate('div').withAttr({ id: 'ebsContainerContent_virtualAttributeId_popupLkp_lookupgrid' }),
+    codeAttributeChangeEditor: locate('div').withAttr({ id: 'ebsContainerContent_attributeChangeEventmonaco' }),
+    codeLookupLookupTable: locate('div').withAttr({ id: 'ebsContainerContent_AT_EntForChangeEventId_popupLkp_lookupgrid' }),
+    codeLookupAsDropdownTable: locate('div').withAttr({ id: 'ebsContainerContent_AT_EntForChangeEventId_dataGrid' }),
+  },
+};

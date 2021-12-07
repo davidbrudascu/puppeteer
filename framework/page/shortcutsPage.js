@@ -1,0 +1,45 @@
+module.exports = {
+  fields: {
+    optionSetKeyboardShortcutInputField: locate('input').withAttr({ type: 'text' }).inside('#ebsContainerContent_att_optionset_list'),
+    dateCalendarShortcutInputField: locate('input').withAttr({ type: 'text' }).inside('#ebsContainerContent_att_date'),
+    shortcutSavePortalInputField: locate('input').withAttr({ type: 'text' }).inside('#ebsContainerContent_AT_KeyboardShortcut_Save_New'),
+    shortcutMoveActionPortalInputField: locate('input').withAttr({ type: 'text' }).inside('#ebsContainerContent_AT_KeyboardShortcut_MoveAction'),
+  },
+  buttons: {
+    optionSetKeyboardShortcutDropdownButton: locate('div').withAttr({ role: 'button' }).inside('#ebsContainerContent_att_optionset_list'),
+    beforeEventsCodeEditorFullscreenButton: locate('a').withAttr({ class: 'btn btn-default btn-sm afterGenerateFullscreen' }).inside('#ebsContainerContent_beforeGenerateJs'),
+    codeEditorFullscreenButton: locate('a').withAttr({ class: 'btn btn-default btn-sm afterGenerateFullscreen' }).inside('#ebsContainerContent_code'),
+    closeFullscreenCodeEditorButton: locate('div').withAttr({ 'aria-label': 'close' }).inside('#mncFullScreenPopup'),
+    checkoutButton: '#beforeGenerateJsCheckOutButtonId',
+    codeCheckoutButton: '#codeCheckOutButtonId',
+  },
+  selector: {
+    dropdown: locate('div').withAttr({ role: 'listbox' }),
+    highlightedDropdownOption: locate('div').withAttr({ class: 'dx-item dx-list-item dx-state-focused' }),
+    codeMonacoEditorID2: '2',
+    codeMonacoEditorID0: '0',
+    codeMonacoEditorID1: '1',
+    codeMonacoEditorID3: '3',
+    firstLineBeforeCodeMonacoEditor: '//*[@id="ebsContainerContent_beforeGenerateJsmonaco"]/div/div[1]/div[2]/div[1]/div[4]/div',
+    firstLineCodeMonacoEditorXPATH: '//*[@id="ebsContainerContent_codemonaco"]/div/div[1]/div[2]/div[1]/div[4]/div',
+    firstLineCodeMonacoEditor: locate('div').withAttr({ class: 'view-line' }),
+    firstLineBeforeCodeMonacoEditorExpanded: '//*[@id="mncPopupEditor"]/div/div[1]/div[2]/div[1]/div[4]/div',
+    popupMonacoEditor: locate('div').withAttr({ id: 'mncPopupEditor' }),
+    overlayFullscreenMonacoEditor: locate('div').withAttr({ class: 'dx-overlay-content dx-popup-normal dx-popup-draggable dx-resizable dx-popup-fullscreen-width' }),
+    overlayMonacoEditor: locate('div').withAttr({ class: 'monaco-scrollable-element editor-scrollable vs' }),
+    overlayFullscreenMonacoEditorSS: locate('div').withAttr({ class: 'dx-overlay-wrapper dx-popup-wrapper dx-overlay-modal dx-overlay-shader' }),
+    highlightedOptionTable: locate('td').withAttr({ class: 'dx-focused' }),
+    checkedRadioButton: locate('div').withAttr({ role: 'radio' }).withAttr({ 'aria-selected': 'true' }),
+  },
+  container: {
+    defaultContainer: '#ebsContainerContent',
+    calendarContainer: locate('div').withAttr({ class: 'dx-calendar-body' }),
+  },
+  checkbox: {
+    shortcutsBoolAttr: '#ebsContainerContent_bool_attr',
+    noRadioButton: locate('div').withAttr({ role: 'radio' }).withDescendant(locate('div').withText('No')),
+  },
+  columns: {
+    nameColumnHeader: locate('td').withAttr({ 'aria-label': 'Column Name' }),
+  },
+};

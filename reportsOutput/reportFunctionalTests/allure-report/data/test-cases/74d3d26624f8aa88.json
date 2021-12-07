@@ -1,0 +1,326 @@
+{
+  "uid" : "74d3d26624f8aa88",
+  "name" : "User can add a Relationship Type using UI Designer",
+  "fullName" : "UI Designer:.User can add a Relationship Type using UI Designer",
+  "historyId" : "16f3f0e84f5b119a2e3f3dbb120c401a",
+  "time" : {
+    "start" : 1622417976643,
+    "stop" : 1622418002912,
+    "duration" : 26269
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "element (//*[@id=\"main-page\"]/body/div[7]/div/div[2]/div/div/div[2]/div[2]/div[2]/div[6]/div[1]/div/div[1]/div/div[1]/div[2]/div[1]/div/div/div/div[1]/input) still not visible after 20 sec\n                waiting for XPath `//*[@id=\"main-page\"]/body/div[7]/div/div[2]/div/div/div[2]/div[2]/div[2]/div[6]/div[1]/div/div[1]/div/div[1]/div[2]/div[1]/div/div/div/div[1]/input` failed: timeout 20000ms exceeded",
+  "statusTrace" : "Error: element (//*[@id=\"main-page\"]/body/div[7]/div/div[2]/div/div/div[2]/div[2]/div[2]/div[6]/div[1]/div/div[1]/div/div[1]/div[2]/div[1]/div/div/div/div[1]/input) still not visible after 20 sec\n                waiting for XPath `//*[@id=\"main-page\"]/body/div[7]/div/div[2]/div/div/div[2]/div[2]/div[2]/div[6]/div[1]/div/div[1]/div/div[1]/div[2]/div[1]/div/div/div/div[1]/input` failed: timeout 20000ms exceeded\n                    at C:\\Work\\GitHub\\AutomatedTests\\node_modules\\codeceptjs\\lib\\helper\\Puppeteer.js:1968:13\n                    at async Object.addRelationshipType (C:\\Work\\GitHub\\AutomatedTests\\framework\\actionDefinitions\\uiDesignerActions.js:331:5)\n                    at async Test.<anonymous> (C:\\Work\\GitHub\\AutomatedTests\\ftosCore\\testScenarios\\uiDesigner\\TC011_AddRelationshipType.js:19:3)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "element (//*[@id=\"main-page\"]/body/div[7]/div/div[2]/div/div/div[2]/div[2]/div[2]/div[6]/div[1]/div/div[1]/div/div[1]/div[2]/div[1]/div/div/div/div[1]/input) still not visible after 20 sec\n                waiting for XPath `//*[@id=\"main-page\"]/body/div[7]/div/div[2]/div/div/div[2]/div[2]/div[2]/div[6]/div[1]/div/div[1]/div/div[1]/div[2]/div[1]/div/div/div/div[1]/input` failed: timeout 20000ms exceeded",
+    "statusTrace" : "Error: element (//*[@id=\"main-page\"]/body/div[7]/div/div[2]/div/div/div[2]/div[2]/div[2]/div[6]/div[1]/div/div[1]/div/div[1]/div[2]/div[1]/div/div/div/div[1]/input) still not visible after 20 sec\n                waiting for XPath `//*[@id=\"main-page\"]/body/div[7]/div/div[2]/div/div/div[2]/div[2]/div[2]/div[6]/div[1]/div/div[1]/div/div[1]/div[2]/div[1]/div/div/div/div[1]/input` failed: timeout 20000ms exceeded\n                    at C:\\Work\\GitHub\\AutomatedTests\\node_modules\\codeceptjs\\lib\\helper\\Puppeteer.js:1968:13\n                    at async Object.addRelationshipType (C:\\Work\\GitHub\\AutomatedTests\\framework\\actionDefinitions\\uiDesignerActions.js:331:5)\n                    at async Test.<anonymous> (C:\\Work\\GitHub\\AutomatedTests\\ftosCore\\testScenarios\\uiDesigner\\TC011_AddRelationshipType.js:19:3)",
+    "steps" : [ {
+      "name" : "I am on page \"_Designer/Account/LogOn\"",
+      "time" : {
+        "start" : 1622417976917,
+        "stop" : 1622417977772,
+        "duration" : 855
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible {\"class\":\"dx-loadindicator\"}, 20",
+      "time" : {
+        "start" : 1622417977772,
+        "stop" : 1622417977776,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible \"#osloader\", 20",
+      "time" : {
+        "start" : 1622417977776,
+        "stop" : 1622417977784,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible #usernameField, 20",
+      "time" : {
+        "start" : 1622417977784,
+        "stop" : 1622417977788,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I fill field #usernameField, \"host\"",
+      "time" : {
+        "start" : 1622417977899,
+        "stop" : 1622417978288,
+        "duration" : 389
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I fill field \"#passwordField\", \"1234567\"",
+      "time" : {
+        "start" : 1622417978397,
+        "stop" : 1622417978833,
+        "duration" : 436
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for clickable \".btn-login\", 20",
+      "time" : {
+        "start" : 1622417978833,
+        "stop" : 1622417978839,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click \".btn-login\"",
+      "time" : {
+        "start" : 1622417978942,
+        "stop" : 1622417979288,
+        "duration" : 346
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//span[contains(., 'My account')][ancestor::div[@class = 'account-footer']]}, 60",
+      "time" : {
+        "start" : 1622417979288,
+        "stop" : 1622417979706,
+        "duration" : 418
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I am on page \"_Designer/Main#/entity/entityformsection/edit/ea80f3b3-8298-4044-b6e9-1c3e3e2e3d5e/pageno/1\"",
+      "time" : {
+        "start" : 1622417979706,
+        "stop" : 1622417981788,
+        "duration" : 2082
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible {\"class\":\"dx-loadindicator\"}, 20",
+      "time" : {
+        "start" : 1622417981788,
+        "stop" : 1622417981791,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible \"#osloader\", 20",
+      "time" : {
+        "start" : 1622417981791,
+        "stop" : 1622417981793,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible \"#mceu_19-button\", 20",
+      "time" : {
+        "start" : 1622417981793,
+        "stop" : 1622417981796,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click \"#mceu_19-button\"",
+      "time" : {
+        "start" : 1622417981897,
+        "stop" : 1622417982367,
+        "duration" : 470
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//div[@class = 'row'][ancestor::div[@class = 'container ftos-uid-html-holder']]}, 20",
+      "time" : {
+        "start" : 1622417982368,
+        "stop" : 1622417982428,
+        "duration" : 60
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: .//div[@class = 'row'][ancestor::div[@class = 'container ftos-uid-html-holder']]}",
+      "time" : {
+        "start" : 1622417982540,
+        "stop" : 1622417982903,
+        "duration" : 363
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible \"//*[@id=\"main-page\"]/body/div[7]/div/div[2]/div/div/div[2]/div[2]/div[2]/div[6]/div[1]/div/div[1]/div/div[1]/div[2]/div[1]/div/div/div/div[1]/input\", 20",
+      "time" : {
+        "start" : 1622417982903,
+        "stop" : 1622418002912,
+        "duration" : 20009
+      },
+      "status" : "failed",
+      "statusMessage" : "Error: element (//*[@id=\"main-page\"]/body/div[7]/div/div[2]/div/div/div[2]/div[2]/div[2]/div[6]/div[1]/div/div[1]/div/div[1]/div[2]/div[1]/div/div/div/div[1]/input) still not visible after 20 sec\n                waiting for XPath `//*[@id=\"main-page\"]/body/div[7]/div/div[2]/div/div/div[2]/div[2]/div[2]/div[6]/div[1]/div/div[1]/div/div[1]/div[2]/div[1]/div/div/div/div[1]/input` failed: timeout 20000ms exceeded\n                    at C:\\Work\\GitHub\\AutomatedTests\\node_modules\\codeceptjs\\lib\\helper\\Puppeteer.js:1968:13\n                    at async Object.addRelationshipType (C:\\Work\\GitHub\\AutomatedTests\\framework\\actionDefinitions\\uiDesignerActions.js:331:5)\n                    at async Test.<anonymous> (C:\\Work\\GitHub\\AutomatedTests\\ftosCore\\testScenarios\\uiDesigner\\TC011_AddRelationshipType.js:19:3)",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "758e64526f1c65a3",
+      "name" : "Last Seen Screenshot",
+      "source" : "758e64526f1c65a3.png",
+      "type" : "image/png",
+      "size" : 88329
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 17,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "UI Designer:"
+  }, {
+    "name" : "testClass",
+    "value" : "UI Designer:"
+  }, {
+    "name" : "testMethod",
+    "value" : "User can add a Relationship Type using UI Designer"
+  }, {
+    "name" : "package",
+    "value" : "UI Designer:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "74d3d26624f8aa88.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,791 @@
+{
+  "uid" : "cdbbd71958658b01",
+  "name" : "User can editing inline batch attribute data view",
+  "fullName" : "View:.User can editing inline batch attribute data view",
+  "historyId" : "a749dcd5f75b11058ddd511e8c498c86",
+  "time" : {
+    "start" : 1622418898806,
+    "stop" : 1622418932579,
+    "duration" : 33773
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "element ({xpath: .//span[@class = 'dx-checkbox-icon'][ancestor::div[@aria-checked = 'true']]}) still not visible after 20 sec\n                waiting for XPath `.//span[@class = 'dx-checkbox-icon'][ancestor::div[@aria-checked = 'true']]` failed: timeout 20000ms exceeded",
+  "statusTrace" : "Error: element ({xpath: .//span[@class = 'dx-checkbox-icon'][ancestor::div[@aria-checked = 'true']]}) still not visible after 20 sec\n                waiting for XPath `.//span[@class = 'dx-checkbox-icon'][ancestor::div[@aria-checked = 'true']]` failed: timeout 20000ms exceeded\n                    at C:\\Work\\GitHub\\AutomatedTests\\node_modules\\codeceptjs\\lib\\helper\\Puppeteer.js:1968:13",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "element ({xpath: .//span[@class = 'dx-checkbox-icon'][ancestor::div[@aria-checked = 'true']]}) still not visible after 20 sec\n                waiting for XPath `.//span[@class = 'dx-checkbox-icon'][ancestor::div[@aria-checked = 'true']]` failed: timeout 20000ms exceeded",
+    "statusTrace" : "Error: element ({xpath: .//span[@class = 'dx-checkbox-icon'][ancestor::div[@aria-checked = 'true']]}) still not visible after 20 sec\n                waiting for XPath `.//span[@class = 'dx-checkbox-icon'][ancestor::div[@aria-checked = 'true']]` failed: timeout 20000ms exceeded\n                    at C:\\Work\\GitHub\\AutomatedTests\\node_modules\\codeceptjs\\lib\\helper\\Puppeteer.js:1968:13",
+    "steps" : [ {
+      "name" : "I am on page \"_Portal/Account/LogOn\"",
+      "time" : {
+        "start" : 1622418899085,
+        "stop" : 1622418900158,
+        "duration" : 1073
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible {\"class\":\"dx-loadindicator\"}, 20",
+      "time" : {
+        "start" : 1622418900158,
+        "stop" : 1622418900162,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible \"#osloader\", 20",
+      "time" : {
+        "start" : 1622418900162,
+        "stop" : 1622418900164,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible #usernameField, 20",
+      "time" : {
+        "start" : 1622418900164,
+        "stop" : 1622418900171,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I fill field #usernameField, \"host\"",
+      "time" : {
+        "start" : 1622418900284,
+        "stop" : 1622418900682,
+        "duration" : 398
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I fill field \"#passwordField\", \"1234567\"",
+      "time" : {
+        "start" : 1622418900792,
+        "stop" : 1622418901236,
+        "duration" : 444
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for clickable \".btn-login\", 20",
+      "time" : {
+        "start" : 1622418901236,
+        "stop" : 1622418901242,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click \".btn-login\"",
+      "time" : {
+        "start" : 1622418901346,
+        "stop" : 1622418901693,
+        "duration" : 347
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//span[contains(., 'My account')][ancestor::div[@class = 'account-footer']]}, 60",
+      "time" : {
+        "start" : 1622418901693,
+        "stop" : 1622418902111,
+        "duration" : 418
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I am on page \"_Portal/Main#/entity/AT_InlineEditingBatch/list/\"",
+      "time" : {
+        "start" : 1622418902112,
+        "stop" : 1622418903251,
+        "duration" : 1139
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible {\"class\":\"dx-loadindicator\"}, 20",
+      "time" : {
+        "start" : 1622418903251,
+        "stop" : 1622418903254,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible \"#osloader\", 20",
+      "time" : {
+        "start" : 1622418903254,
+        "stop" : 1622418903256,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//div[contains(., 'Name')][ancestor::td[@aria-label = 'Column Name']]}, 20",
+      "time" : {
+        "start" : 1622418903256,
+        "stop" : 1622418903261,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//div[contains(., 'Code')][ancestor::td[@aria-label = 'Column Code']]}, 20",
+      "time" : {
+        "start" : 1622418903261,
+        "stop" : 1622418903267,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//div[contains(., 'Currency')][ancestor::td[@aria-label = 'Column Currency']]}, 20",
+      "time" : {
+        "start" : 1622418903267,
+        "stop" : 1622418903272,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//div[contains(., 'Date')][ancestor::td[@aria-label = 'Column Date']]}, 20",
+      "time" : {
+        "start" : 1622418903272,
+        "stop" : 1622418903276,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//div[contains(., 'User')][ancestor::td[@aria-label = 'Column User']]}, 20",
+      "time" : {
+        "start" : 1622418903276,
+        "stop" : 1622418903280,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//td[contains(., 'Product1a')]}, 20",
+      "time" : {
+        "start" : 1622418903280,
+        "stop" : 1622418903283,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: .//td[contains(., 'Product1a')]}",
+      "time" : {
+        "start" : 1622418903395,
+        "stop" : 1622418903790,
+        "duration" : 395
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I press key [\"CommandOrControl\",\"A\"]",
+      "time" : {
+        "start" : 1622418903901,
+        "stop" : 1622418904217,
+        "duration" : 316
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I press key \"Delete\"",
+      "time" : {
+        "start" : 1622418904327,
+        "stop" : 1622418904644,
+        "duration" : 317
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I fill field {xpath: (.//input[@class = 'dx-texteditor-input'])[position()=last()-0]}, \"Product2a\"",
+      "time" : {
+        "start" : 1622418904755,
+        "stop" : 1622418905227,
+        "duration" : 472
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//td[contains(., 'PRa')]}, 20",
+      "time" : {
+        "start" : 1622418905227,
+        "stop" : 1622418905232,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: .//td[contains(., 'PRa')]}",
+      "time" : {
+        "start" : 1622418905336,
+        "stop" : 1622418905700,
+        "duration" : 364
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//tr[@aria-selected = 'true'][ancestor::*[contains(concat(' ', normalize-space(./@class), ' '), ' dx-select-checkboxes-hidden ')]]}, 20",
+      "time" : {
+        "start" : 1622418905700,
+        "stop" : 1622418905706,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//td[contains(., 'Leu')][ancestor::tr[@aria-rowindex = '1']][ancestor::*[contains(concat(' ', normalize-space(./@class), ' '), ' dx-select-checkboxes-hidden ')]]}, 20",
+      "time" : {
+        "start" : 1622418905706,
+        "stop" : 1622418905710,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: .//td[contains(., 'Leu')][ancestor::tr[@aria-rowindex = '1']][ancestor::*[contains(concat(' ', normalize-space(./@class), ' '), ' dx-select-checkboxes-hidden ')]]}",
+      "time" : {
+        "start" : 1622418905812,
+        "stop" : 1622418906191,
+        "duration" : 379
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible .dx-icon-arrowdown, 20",
+      "time" : {
+        "start" : 1622418906191,
+        "stop" : 1622418906197,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click .dx-icon-arrowdown",
+      "time" : {
+        "start" : 1622418906302,
+        "stop" : 1622418906662,
+        "duration" : 360
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//td[contains(., 'Euro')][ancestor::*[contains(concat(' ', normalize-space(./@class), ' '), ' dx-datagrid-table-fixed ')]]}, 20",
+      "time" : {
+        "start" : 1622418906662,
+        "stop" : 1622418906836,
+        "duration" : 174
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: .//td[contains(., 'Euro')][ancestor::*[contains(concat(' ', normalize-space(./@class), ' '), ' dx-datagrid-table-fixed ')]]}",
+      "time" : {
+        "start" : 1622418906943,
+        "stop" : 1622418907310,
+        "duration" : 367
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: .//div[@id = 'lookupedit_base_AT_ForInlineEditingCurrencyId_displayname_0_popupLkp_lookupgrid_toolbar_item_4']}",
+      "time" : {
+        "start" : 1622418907420,
+        "stop" : 1622418907766,
+        "duration" : 346
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for clickable {xpath: .//td[contains(., '22/01/2020')][ancestor::tr[@aria-rowindex = '1']][ancestor::*[contains(concat(' ', normalize-space(./@class), ' '), ' dx-select-checkboxes-hidden ')]]}, 20",
+      "time" : {
+        "start" : 1622418907767,
+        "stop" : 1622418908166,
+        "duration" : 399
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: .//td[contains(., '22/01/2020')][ancestor::tr[@aria-rowindex = '1']][ancestor::*[contains(concat(' ', normalize-space(./@class), ' '), ' dx-select-checkboxes-hidden ')]]}",
+      "time" : {
+        "start" : 1622418908271,
+        "stop" : 1622418908652,
+        "duration" : 381
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I fill field {xpath: .//input[@type = 'text'][ancestor::tr[@aria-rowindex = '1']][ancestor::*[contains(concat(' ', normalize-space(./@class), ' '), ' dx-select-checkboxes-hidden ')]]}, \"25/01/2020\"",
+      "time" : {
+        "start" : 1622418908763,
+        "stop" : 1622418909253,
+        "duration" : 490
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//td[contains(., 'host')][ancestor::tr[@aria-rowindex = '1']][ancestor::*[contains(concat(' ', normalize-space(./@class), ' '), ' dx-select-checkboxes-hidden ')]]}, 20",
+      "time" : {
+        "start" : 1622418909253,
+        "stop" : 1622418909258,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: .//td[contains(., 'host')][ancestor::tr[@aria-rowindex = '1']][ancestor::*[contains(concat(' ', normalize-space(./@class), ' '), ' dx-select-checkboxes-hidden ')]]}",
+      "time" : {
+        "start" : 1622418909363,
+        "stop" : 1622418909743,
+        "duration" : 380
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//span[@class = 'dx-checkbox-icon'][ancestor::div[@aria-checked = 'true']]}, 20",
+      "time" : {
+        "start" : 1622418909743,
+        "stop" : 1622418909748,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//div[@aria-label = 'Page 2']}, 20",
+      "time" : {
+        "start" : 1622418909748,
+        "stop" : 1622418909752,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: .//div[@aria-label = 'Page 2']}",
+      "time" : {
+        "start" : 1622418909854,
+        "stop" : 1622418910199,
+        "duration" : 345
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//td[contains(., 'Product1k')]}, 20",
+      "time" : {
+        "start" : 1622418910199,
+        "stop" : 1622418910204,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: .//td[contains(., 'Product1k')]}",
+      "time" : {
+        "start" : 1622418910309,
+        "stop" : 1622418910672,
+        "duration" : 363
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I press key [\"CommandOrControl\",\"A\"]",
+      "time" : {
+        "start" : 1622418910783,
+        "stop" : 1622418911100,
+        "duration" : 317
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I press key \"Delete\"",
+      "time" : {
+        "start" : 1622418911212,
+        "stop" : 1622418911528,
+        "duration" : 316
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I fill field {xpath: (.//input[@class = 'dx-texteditor-input'])[position()=last()-0]}, \"Product2k\"",
+      "time" : {
+        "start" : 1622418911638,
+        "stop" : 1622418912111,
+        "duration" : 473
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//td[contains(., 'PRk')]}, 20",
+      "time" : {
+        "start" : 1622418912111,
+        "stop" : 1622418912117,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: .//td[contains(., 'PRk')]}",
+      "time" : {
+        "start" : 1622418912221,
+        "stop" : 1622418912571,
+        "duration" : 350
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//span[@class = 'dx-checkbox-icon'][ancestor::div[@aria-checked = 'true']]}, 20",
+      "time" : {
+        "start" : 1622418912571,
+        "stop" : 1622418932578,
+        "duration" : 20007
+      },
+      "status" : "failed",
+      "statusMessage" : "Error: element ({xpath: .//span[@class = 'dx-checkbox-icon'][ancestor::div[@aria-checked = 'true']]}) still not visible after 20 sec\n                waiting for XPath `.//span[@class = 'dx-checkbox-icon'][ancestor::div[@aria-checked = 'true']]` failed: timeout 20000ms exceeded\n                    at C:\\Work\\GitHub\\AutomatedTests\\node_modules\\codeceptjs\\lib\\helper\\Puppeteer.js:1968:13",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "4ad0178a25204aa3",
+      "name" : "Last Seen Screenshot",
+      "source" : "4ad0178a25204aa3.png",
+      "type" : "image/png",
+      "size" : 447248
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 48,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "View:"
+  }, {
+    "name" : "testClass",
+    "value" : "View:"
+  }, {
+    "name" : "testMethod",
+    "value" : "User can editing inline batch attribute data view"
+  }, {
+    "name" : "package",
+    "value" : "View:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "cdbbd71958658b01.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,52 @@
+module.exports = {
+  fields: {
+    bwNameField: '#ebsContainerContent_name div div.dx-texteditor-input-container input',
+    addBWStatusName: '#ebsContainerContent_name div div.dx-texteditor-input-container input',
+    addBWStatusLabel: '#ebsContainerContent_label div div.dx-texteditor-input-container input',
+    addBWStatusTransitionName: '//*[@id="ebsContainerContent_name"]/div/div[1]/input',
+    searchToStatusField: '//*[@id="ebsContainerContent_toStatusId_popupLkp_lookupgrid"]/div/div[5]/div/table/tbody/tr[2]/td/div/div[2]/div/div/div[1]/input',
+    searchBusinessWorkflowField: locate('input').withAttr({ class: 'dx-texteditor-input' }),
+    searchBwEntity: locate('div').withAttr({ id: 'ebsContainerContent_attachToEntity_popupLkp_lookupgrid' }),
+    searchBWResultsField: '//*[@id="ebsContainerContent"]/div/div[6]/div',
+    bwStatusListField: '//*[@id="ebsContainerContent_BWstatus_BW"]/div/div[6]/div/table/tbody/tr[1]/td[2]',
+    bwTransitionListField: '//*[@id="ebsContainerContent_BWrule_BW"]/div/div[6]/div/table/tbody/tr[1]/td[2]',
+    bwAttachToEntityTableField: '#ebsContainerContent_entityBW_bW',
+    bwStatusList: locate('div').withAttr({ id: 'ebsContainerContent_BWstatus_BW' }),
+  },
+  tables: {
+    bwAttachedEntityTable: locate('div').withAttr({ id: 'ebsContainerContent_entityBW_bW' }),
+    bwStatusListTable: locate('div').withAttr({ id: 'ebsContainerContent_BWstatus_BW' }),
+    bwTransitionListTable: locate('div').withAttr({ id: 'ebsContainerContent_BWrule_BW' }),
+  },
+  buttons: {
+    attachToEntityButton: '#attachToAnEntityBtn',
+    yesAnswerButton: locate('div').withAttr({ class: 'dx-button dx-button-default dx-button-mode-contained dx-widget dx-button-has-text' }),
+    addBWStatusTransitionFromStatus: locate('div').withAttr({ role: 'button' }).inside(locate('div').withAttr({ id: 'ebsContainerContent_fromStatusId' })),
+    addBWStatusTransitionToStatus: locate('div').withAttr({ role: 'button' }).inside(locate('div').withAttr({ id: 'ebsContainerContent_toStatusId' })),
+    bwConfigStatusInsertButton: locate('div').withAttr({ id: 'ebsContainerContent_BWstatus_BW_toolbar_item_1' }),
+    bwConfigTransitionInsertButton: locate('div').withAttr({ id: 'ebsContainerContent_BWrule_BW_toolbar_item_1' }),
+    menuOKBWTransitionToStatusButton: '#ebsContainerContent_toStatusId_popupLkp_lookupgrid_toolbar_item_3',
+    configTab: locate('div').withAttr({ class: 'dx-item dx-tab stepNumber-4' }),
+  },
+  tabs: {
+    mainTab: '#stepper div div.dx-item.dx-tab.stepNumber-1',
+    configurationTab: '#stepper div div.dx-item.dx-tab.stepNumber-4',
+  },
+  popup: {
+    openAttachEntityPopup: '#ebsContainerContent_attachToEntity_popupLkp_lookupgrid',
+  },
+  selector: {
+    bwInitialTransitionStatus: '//*[@id="ebsContainerContent_toStatusId_popupLkp_lookupgrid"]/div/div[6]/div/div/div[1]/div/table/tbody/tr[1]',
+  },
+  locate: {
+    bwRuleWrapLocate: '#ebsContainerContent_BWrule_BW_wrap',
+    containerContentLocate: '#ebsContainerContent',
+    tableLoadingAnimationVisible: locate('div').withAttr({ class: 'dx-overlay dx-widget dx-visibility-change-handler dx-loadpanel' }),
+    tableLoadingAnimationInvisible: locate('div').withAttr({ class: 'dx-overlay dx-widget dx-visibility-change-handler dx-loadpanel dx-state-invisible' }),
+    searchResultsBusinessWorkflowLocate: locate('div').withAttr({ id: 'ebsContainerContent' }),
+    bwSearchResultsEntityLocate: locate('div').withAttr({ class: 'dx-scrollable-wrapper' }).inside('div').withAttr({ id: 'ebsContainerContent_attachToEntity_popupLkp_lookupgrid' }),
+    attachEntityPopupLocate: locate('div').withAttr({ class: 'dx-popup-content' }),
+    bwTransitionFromStatusLookup: locate('div').withAttr({ id: 'ebsContainerContent_fromStatusId_popupLkp_lookupgrid' }),
+    bwTransitionToStatusLookup: locate('div').withAttr({ id: 'ebsContainerContent_toStatusId_popupLkp_lookupgrid' }),
+  },
+};

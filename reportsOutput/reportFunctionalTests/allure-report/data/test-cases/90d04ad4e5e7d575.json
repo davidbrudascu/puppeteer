@@ -1,0 +1,4931 @@
+{
+  "uid" : "90d04ad4e5e7d575",
+  "name" : "Use Filtered Field - Form Lookup as Dropdown",
+  "fullName" : "Filtered Fields:.Use Filtered Field - Form Lookup as Dropdown",
+  "historyId" : "2eab683d113cc5784038b4e753f0e6fd",
+  "time" : {
+    "start" : 1622413632868,
+    "stop" : 1622413661417,
+    "duration" : 28549
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "I am on page \"_Portal/Account/LogOn\"",
+      "time" : {
+        "start" : 1622413633153,
+        "stop" : 1622413634248,
+        "duration" : 1095
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible {\"class\":\"dx-loadindicator\"}, 20",
+      "time" : {
+        "start" : 1622413634249,
+        "stop" : 1622413634252,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible \"#osloader\", 20",
+      "time" : {
+        "start" : 1622413634252,
+        "stop" : 1622413634254,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible #usernameField, 20",
+      "time" : {
+        "start" : 1622413634255,
+        "stop" : 1622413634262,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I fill field #usernameField, \"host\"",
+      "time" : {
+        "start" : 1622413634373,
+        "stop" : 1622413634768,
+        "duration" : 395
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I fill field \"#passwordField\", \"1234567\"",
+      "time" : {
+        "start" : 1622413634877,
+        "stop" : 1622413635320,
+        "duration" : 443
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for clickable \".btn-login\", 20",
+      "time" : {
+        "start" : 1622413635320,
+        "stop" : 1622413635326,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click \".btn-login\"",
+      "time" : {
+        "start" : 1622413635433,
+        "stop" : 1622413635775,
+        "duration" : 342
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//span[contains(., 'My account')][ancestor::div[@class = 'account-footer']]}, 60",
+      "time" : {
+        "start" : 1622413635775,
+        "stop" : 1622413636217,
+        "duration" : 442
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I am on page \"_Portal/Main#/entity/AT_UseFFFormLkpasDD/list/\"",
+      "time" : {
+        "start" : 1622413636217,
+        "stop" : 1622413637307,
+        "duration" : 1090
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible {\"class\":\"dx-loadindicator\"}, 20",
+      "time" : {
+        "start" : 1622413637307,
+        "stop" : 1622413637310,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible \"#osloader\", 20",
+      "time" : {
+        "start" : 1622413637310,
+        "stop" : 1622413637312,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible {\"class\":\"dx-loadindicator\"}, 20",
+      "time" : {
+        "start" : 1622413637312,
+        "stop" : 1622413637314,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible \"#osloader\", 20",
+      "time" : {
+        "start" : 1622413637314,
+        "stop" : 1622413637315,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible #InsertBtn, 20",
+      "time" : {
+        "start" : 1622413637315,
+        "stop" : 1622413637318,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for clickable #InsertBtn, 20",
+      "time" : {
+        "start" : 1622413637318,
+        "stop" : 1622413637320,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click #InsertBtn",
+      "time" : {
+        "start" : 1622413637434,
+        "stop" : 1622413637808,
+        "duration" : 374
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//div[@role = 'button'][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCityId_dropDownBox']]}, 20",
+      "time" : {
+        "start" : 1622413637809,
+        "stop" : 1622413638142,
+        "duration" : 333
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for clickable {xpath: .//div[@role = 'button'][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCityId_dropDownBox']]}, 20",
+      "time" : {
+        "start" : 1622413638142,
+        "stop" : 1622413638145,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: .//div[@role = 'button'][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCityId_dropDownBox']]}",
+      "time" : {
+        "start" : 1622413638253,
+        "stop" : 1622413638633,
+        "duration" : 380
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible {\"class\":\"dx-loadindicator\"}, 20",
+      "time" : {
+        "start" : 1622413638633,
+        "stop" : 1622413638636,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible \"#osloader\", 20",
+      "time" : {
+        "start" : 1622413638636,
+        "stop" : 1622413638639,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[contains(., 'Arad')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}, 20",
+      "time" : {
+        "start" : 1622413638639,
+        "stop" : 1622413638643,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'Arad')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413638643,
+        "stop" : 1622413638645,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[contains(., 'Bacau')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}, 20",
+      "time" : {
+        "start" : 1622413638645,
+        "stop" : 1622413638647,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'Bacau')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413638647,
+        "stop" : 1622413638648,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[contains(., 'Barcelona')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}, 20",
+      "time" : {
+        "start" : 1622413638648,
+        "stop" : 1622413638650,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'Barcelona')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413638650,
+        "stop" : 1622413638651,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[contains(., 'Berlin')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}, 20",
+      "time" : {
+        "start" : 1622413638651,
+        "stop" : 1622413638653,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'Berlin')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413638653,
+        "stop" : 1622413638654,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[contains(., 'Braila')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}, 20",
+      "time" : {
+        "start" : 1622413638654,
+        "stop" : 1622413638656,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'Braila')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413638656,
+        "stop" : 1622413638657,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//div[@role = 'button'][contains(., '2')][ancestor::div[@class = 'dx-pages']]}, 20",
+      "time" : {
+        "start" : 1622413638657,
+        "stop" : 1622413638659,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: .//div[@role = 'button'][contains(., '2')][ancestor::div[@class = 'dx-pages']]}",
+      "time" : {
+        "start" : 1622413638760,
+        "stop" : 1622413639110,
+        "duration" : 350
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[contains(., 'Brasov')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}, 20",
+      "time" : {
+        "start" : 1622413639110,
+        "stop" : 1622413639115,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'Brasov')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413639115,
+        "stop" : 1622413639118,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[contains(., 'Bucharest')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}, 20",
+      "time" : {
+        "start" : 1622413639119,
+        "stop" : 1622413639123,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'Bucharest')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413639123,
+        "stop" : 1622413639125,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[contains(., 'Buzau')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}, 20",
+      "time" : {
+        "start" : 1622413639125,
+        "stop" : 1622413639127,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'Buzau')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413639127,
+        "stop" : 1622413639129,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[contains(., 'Cluj')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}, 20",
+      "time" : {
+        "start" : 1622413639129,
+        "stop" : 1622413639130,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'Cluj')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413639130,
+        "stop" : 1622413639131,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[contains(., 'Constanta')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}, 20",
+      "time" : {
+        "start" : 1622413639131,
+        "stop" : 1622413639133,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'Constanta')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413639133,
+        "stop" : 1622413639134,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//div[@role = 'button'][contains(., '3')][ancestor::div[@class = 'dx-pages']]}, 20",
+      "time" : {
+        "start" : 1622413639134,
+        "stop" : 1622413639136,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: .//div[@role = 'button'][contains(., '3')][ancestor::div[@class = 'dx-pages']]}",
+      "time" : {
+        "start" : 1622413639238,
+        "stop" : 1622413639584,
+        "duration" : 346
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[contains(., 'Dortmund')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}, 20",
+      "time" : {
+        "start" : 1622413639584,
+        "stop" : 1622413639590,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'Dortmund')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413639590,
+        "stop" : 1622413639593,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[contains(., 'Iasi')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}, 20",
+      "time" : {
+        "start" : 1622413639593,
+        "stop" : 1622413639596,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'Iasi')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413639596,
+        "stop" : 1622413639597,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[contains(., 'Lille')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}, 20",
+      "time" : {
+        "start" : 1622413639597,
+        "stop" : 1622413639599,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'Lille')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413639599,
+        "stop" : 1622413639600,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[contains(., 'Lyon')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}, 20",
+      "time" : {
+        "start" : 1622413639600,
+        "stop" : 1622413639602,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'Lyon')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413639602,
+        "stop" : 1622413639603,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[contains(., 'Madrid')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}, 20",
+      "time" : {
+        "start" : 1622413639603,
+        "stop" : 1622413639605,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'Madrid')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413639605,
+        "stop" : 1622413639607,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//div[@role = 'button'][contains(., '4')][ancestor::div[@class = 'dx-pages']]}, 20",
+      "time" : {
+        "start" : 1622413639607,
+        "stop" : 1622413639609,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: .//div[@role = 'button'][contains(., '4')][ancestor::div[@class = 'dx-pages']]}",
+      "time" : {
+        "start" : 1622413639710,
+        "stop" : 1622413640059,
+        "duration" : 349
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[contains(., 'Milano')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}, 20",
+      "time" : {
+        "start" : 1622413640060,
+        "stop" : 1622413640065,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'Milano')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413640065,
+        "stop" : 1622413640068,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[contains(., 'Monaco')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}, 20",
+      "time" : {
+        "start" : 1622413640068,
+        "stop" : 1622413640072,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'Monaco')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413640072,
+        "stop" : 1622413640074,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[contains(., 'Napoli')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}, 20",
+      "time" : {
+        "start" : 1622413640074,
+        "stop" : 1622413640076,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'Napoli')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413640076,
+        "stop" : 1622413640077,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[contains(., 'Paris')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}, 20",
+      "time" : {
+        "start" : 1622413640077,
+        "stop" : 1622413640079,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'Paris')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413640079,
+        "stop" : 1622413640080,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[contains(., 'Roma')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}, 20",
+      "time" : {
+        "start" : 1622413640080,
+        "stop" : 1622413640082,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'Roma')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413640082,
+        "stop" : 1622413640083,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//div[@role = 'button'][contains(., '5')][ancestor::div[@class = 'dx-pages']]}, 20",
+      "time" : {
+        "start" : 1622413640083,
+        "stop" : 1622413640085,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: .//div[@role = 'button'][contains(., '5')][ancestor::div[@class = 'dx-pages']]}",
+      "time" : {
+        "start" : 1622413640186,
+        "stop" : 1622413640550,
+        "duration" : 364
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[contains(., 'Timisoara')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}, 20",
+      "time" : {
+        "start" : 1622413640550,
+        "stop" : 1622413640555,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'Timisoara')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413640555,
+        "stop" : 1622413640557,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[contains(., 'Valencia')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}, 20",
+      "time" : {
+        "start" : 1622413640557,
+        "stop" : 1622413640559,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'Valencia')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413640559,
+        "stop" : 1622413640561,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//input[@role = 'textbox'][ancestor::div[@class = 'dx-editor-with-menu']][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCityId_dataGrid']]}, 20",
+      "time" : {
+        "start" : 1622413640561,
+        "stop" : 1622413640563,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I fill field {xpath: .//input[@role = 'textbox'][ancestor::div[@class = 'dx-editor-with-menu']][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCityId_dataGrid']]}, \"Milano\"",
+      "time" : {
+        "start" : 1622413640676,
+        "stop" : 1622413641102,
+        "duration" : 426
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//td[contains(., 'Milano')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCityId_dataGrid']]}, 20",
+      "time" : {
+        "start" : 1622413641102,
+        "stop" : 1622413641557,
+        "duration" : 455
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: .//td[contains(., 'Milano')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCityId_dataGrid']]}",
+      "time" : {
+        "start" : 1622413641669,
+        "stop" : 1622413642046,
+        "duration" : 377
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//div[@role = 'button'][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCountryId_dropDownBox']]}, 20",
+      "time" : {
+        "start" : 1622413642046,
+        "stop" : 1622413642051,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for clickable {xpath: .//div[@role = 'button'][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCountryId_dropDownBox']]}, 20",
+      "time" : {
+        "start" : 1622413642051,
+        "stop" : 1622413642054,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: .//div[@role = 'button'][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCountryId_dropDownBox']]}",
+      "time" : {
+        "start" : 1622413642157,
+        "stop" : 1622413642518,
+        "duration" : 361
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible {\"class\":\"dx-loadindicator\"}, 20",
+      "time" : {
+        "start" : 1622413642518,
+        "stop" : 1622413642521,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible \"#osloader\", 20",
+      "time" : {
+        "start" : 1622413642522,
+        "stop" : 1622413642524,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[contains(., 'France')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}, 20",
+      "time" : {
+        "start" : 1622413642524,
+        "stop" : 1622413642527,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'France')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413642527,
+        "stop" : 1622413642529,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[contains(., 'Germany')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}, 20",
+      "time" : {
+        "start" : 1622413642529,
+        "stop" : 1622413642530,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'Germany')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413642531,
+        "stop" : 1622413642532,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[contains(., 'Italy')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}, 20",
+      "time" : {
+        "start" : 1622413642532,
+        "stop" : 1622413642533,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'Italy')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413642533,
+        "stop" : 1622413642535,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[contains(., 'Romania')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}, 20",
+      "time" : {
+        "start" : 1622413642535,
+        "stop" : 1622413642536,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'Romania')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413642536,
+        "stop" : 1622413642538,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[contains(., 'Spain')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}, 20",
+      "time" : {
+        "start" : 1622413642538,
+        "stop" : 1622413642539,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'Spain')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413642539,
+        "stop" : 1622413642541,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//input[@role = 'textbox'][ancestor::div[@class = 'dx-editor-with-menu']][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCountryId_dataGrid']]}, 20",
+      "time" : {
+        "start" : 1622413642541,
+        "stop" : 1622413642542,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I fill field {xpath: .//input[@role = 'textbox'][ancestor::div[@class = 'dx-editor-with-menu']][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCountryId_dataGrid']]}, \"Romania\"",
+      "time" : {
+        "start" : 1622413642643,
+        "stop" : 1622413643087,
+        "duration" : 444
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//td[contains(., 'Romania')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCountryId_dataGrid']]}, 20",
+      "time" : {
+        "start" : 1622413643087,
+        "stop" : 1622413643092,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: .//td[contains(., 'Romania')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCountryId_dataGrid']]}",
+      "time" : {
+        "start" : 1622413643196,
+        "stop" : 1622413643555,
+        "duration" : 359
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//input[@role = 'combobox'][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCityId']]}, 20",
+      "time" : {
+        "start" : 1622413643555,
+        "stop" : 1622413643561,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I scroll to {xpath: .//input[@role = 'combobox'][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCityId']]}",
+      "time" : {
+        "start" : 1622413643561,
+        "stop" : 1622413643680,
+        "duration" : 119
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for clickable {xpath: .//input[@role = 'combobox'][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCityId']]}, 20",
+      "time" : {
+        "start" : 1622413643680,
+        "stop" : 1622413643685,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I grab value from {xpath: .//input[@role = 'combobox'][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCityId']]}",
+      "time" : {
+        "start" : 1622413643685,
+        "stop" : 1622413643687,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I assert \"Milano\", \"Milano\"",
+      "time" : {
+        "start" : 1622413643694,
+        "stop" : 1622413643694,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//div[@role = 'button'][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCityId_dropDownBox']]}, 20",
+      "time" : {
+        "start" : 1622413643694,
+        "stop" : 1622413643698,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for clickable {xpath: .//div[@role = 'button'][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCityId_dropDownBox']]}, 20",
+      "time" : {
+        "start" : 1622413643698,
+        "stop" : 1622413643702,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: .//div[@role = 'button'][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCityId_dropDownBox']]}",
+      "time" : {
+        "start" : 1622413643806,
+        "stop" : 1622413644167,
+        "duration" : 361
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible {\"class\":\"dx-loadindicator\"}, 20",
+      "time" : {
+        "start" : 1622413644167,
+        "stop" : 1622413644170,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible \"#osloader\", 20",
+      "time" : {
+        "start" : 1622413644171,
+        "stop" : 1622413644172,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//input[@role = 'textbox'][ancestor::td[@role = 'gridcell'][@aria-colindex = '1']][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCityId_dataGrid']]}, 20",
+      "time" : {
+        "start" : 1622413644173,
+        "stop" : 1622413644176,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I move cursor to {xpath: .//input[@role = 'textbox'][ancestor::td[@role = 'gridcell'][@aria-colindex = '1']][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCityId_dataGrid']]}",
+      "time" : {
+        "start" : 1622413644176,
+        "stop" : 1622413644293,
+        "duration" : 117
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: .//input[@role = 'textbox'][ancestor::td[@role = 'gridcell'][@aria-colindex = '1']][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCityId_dataGrid']]}",
+      "time" : {
+        "start" : 1622413644403,
+        "stop" : 1622413644751,
+        "duration" : 348
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I press key [\"CommandOrControl\",\"A\"]",
+      "time" : {
+        "start" : 1622413644864,
+        "stop" : 1622413645181,
+        "duration" : 317
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I press key \"Delete\"",
+      "time" : {
+        "start" : 1622413645292,
+        "stop" : 1622413645608,
+        "duration" : 316
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[contains(., 'Arad')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}, 20",
+      "time" : {
+        "start" : 1622413645608,
+        "stop" : 1622413646076,
+        "duration" : 468
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'Arad')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413646076,
+        "stop" : 1622413646079,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[contains(., 'Bacau')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}, 20",
+      "time" : {
+        "start" : 1622413646079,
+        "stop" : 1622413646083,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'Bacau')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413646083,
+        "stop" : 1622413646085,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[contains(., 'Braila')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}, 20",
+      "time" : {
+        "start" : 1622413646085,
+        "stop" : 1622413646087,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'Braila')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413646087,
+        "stop" : 1622413646090,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[contains(., 'Brasov')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}, 20",
+      "time" : {
+        "start" : 1622413646090,
+        "stop" : 1622413646091,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'Brasov')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413646091,
+        "stop" : 1622413646092,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[contains(., 'Bucharest')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}, 20",
+      "time" : {
+        "start" : 1622413646092,
+        "stop" : 1622413646094,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'Bucharest')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413646094,
+        "stop" : 1622413646096,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Barcelona')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413646096,
+        "stop" : 1622413646098,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Berlin')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413646098,
+        "stop" : 1622413646100,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Dortmund')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413646100,
+        "stop" : 1622413646102,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Lille')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413646102,
+        "stop" : 1622413646103,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Lyon')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413646103,
+        "stop" : 1622413646104,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Madrid')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413646104,
+        "stop" : 1622413646108,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Milano')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413646108,
+        "stop" : 1622413646110,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Monaco')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413646110,
+        "stop" : 1622413646112,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Napoli')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413646112,
+        "stop" : 1622413646113,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Paris')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413646113,
+        "stop" : 1622413646114,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Roma')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413646114,
+        "stop" : 1622413646118,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Valencia')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413646118,
+        "stop" : 1622413646120,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//div[@role = 'button'][contains(., '2')][ancestor::div[@class = 'dx-pages']]}, 20",
+      "time" : {
+        "start" : 1622413646120,
+        "stop" : 1622413646125,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: .//div[@role = 'button'][contains(., '2')][ancestor::div[@class = 'dx-pages']]}",
+      "time" : {
+        "start" : 1622413646237,
+        "stop" : 1622413646585,
+        "duration" : 348
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[contains(., 'Buzau')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}, 20",
+      "time" : {
+        "start" : 1622413646585,
+        "stop" : 1622413646592,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'Buzau')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413646592,
+        "stop" : 1622413646595,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[contains(., 'Cluj')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}, 20",
+      "time" : {
+        "start" : 1622413646595,
+        "stop" : 1622413646597,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'Cluj')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413646597,
+        "stop" : 1622413646599,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[contains(., 'Constanta')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}, 20",
+      "time" : {
+        "start" : 1622413646599,
+        "stop" : 1622413646600,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'Constanta')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413646600,
+        "stop" : 1622413646602,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[contains(., 'Iasi')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}, 20",
+      "time" : {
+        "start" : 1622413646602,
+        "stop" : 1622413646605,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'Iasi')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413646605,
+        "stop" : 1622413646606,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[contains(., 'Timisoara')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}, 20",
+      "time" : {
+        "start" : 1622413646606,
+        "stop" : 1622413646608,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'Timisoara')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413646608,
+        "stop" : 1622413646609,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Barcelona')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413646609,
+        "stop" : 1622413646610,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Berlin')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413646610,
+        "stop" : 1622413646611,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Dortmund')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413646611,
+        "stop" : 1622413646611,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Lille')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413646612,
+        "stop" : 1622413646612,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Lyon')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413646612,
+        "stop" : 1622413646613,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Madrid')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413646613,
+        "stop" : 1622413646615,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Milano')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413646615,
+        "stop" : 1622413646616,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Monaco')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413646616,
+        "stop" : 1622413646618,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Napoli')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413646618,
+        "stop" : 1622413646619,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Paris')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413646619,
+        "stop" : 1622413646620,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Roma')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413646620,
+        "stop" : 1622413646621,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Valencia')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413646621,
+        "stop" : 1622413646622,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//div[@role = 'button'][contains(., '1')][ancestor::div[@class = 'dx-pages']]}, 20",
+      "time" : {
+        "start" : 1622413646622,
+        "stop" : 1622413646624,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: .//div[@role = 'button'][contains(., '1')][ancestor::div[@class = 'dx-pages']]}",
+      "time" : {
+        "start" : 1622413646726,
+        "stop" : 1622413647074,
+        "duration" : 348
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//td[contains(., 'Bucharest')][@role = 'gridcell'][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCityId_dataGrid']]}, 20",
+      "time" : {
+        "start" : 1622413647074,
+        "stop" : 1622413647079,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I double click {xpath: .//td[contains(., 'Bucharest')][@role = 'gridcell'][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCityId_dataGrid']]}",
+      "time" : {
+        "start" : 1622413647079,
+        "stop" : 1622413647231,
+        "duration" : 152
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: .//td[contains(., 'Bucharest')][@role = 'gridcell'][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCityId_dataGrid']]}",
+      "time" : {
+        "start" : 1622413647341,
+        "stop" : 1622413647686,
+        "duration" : 345
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible {\"class\":\"dx-loadindicator\"}, 20",
+      "time" : {
+        "start" : 1622413647686,
+        "stop" : 1622413647689,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible \"#osloader\", 20",
+      "time" : {
+        "start" : 1622413647689,
+        "stop" : 1622413647691,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible \"#RefreshBtn\", 20",
+      "time" : {
+        "start" : 1622413647691,
+        "stop" : 1622413647693,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for clickable \"#RefreshBtn\", 20",
+      "time" : {
+        "start" : 1622413647693,
+        "stop" : 1622413647695,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I move cursor to \"#RefreshBtn\"",
+      "time" : {
+        "start" : 1622413647695,
+        "stop" : 1622413647812,
+        "duration" : 117
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click \"#RefreshBtn\"",
+      "time" : {
+        "start" : 1622413647921,
+        "stop" : 1622413648271,
+        "duration" : 350
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible \".jq-toast-wrap\", 20",
+      "time" : {
+        "start" : 1622413648271,
+        "stop" : 1622413648311,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible {\"class\":\"dx-loadindicator\"}, 20",
+      "time" : {
+        "start" : 1622413648311,
+        "stop" : 1622413648313,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible \"#osloader\", 20",
+      "time" : {
+        "start" : 1622413648313,
+        "stop" : 1622413648314,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//*[contains(concat(' ', normalize-space(./@class), ' '), ' jq-icon-success ')][ancestor::*[contains(concat(' ', normalize-space(./@class), ' '), ' jq-toast-wrap ')]]}, 60",
+      "time" : {
+        "start" : 1622413648314,
+        "stop" : 1622413648318,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for clickable {xpath: .//*[contains(concat(' ', normalize-space(./@class), ' '), ' jq-icon-success ')][ancestor::*[contains(concat(' ', normalize-space(./@class), ' '), ' jq-toast-wrap ')]]}, 20",
+      "time" : {
+        "start" : 1622413648318,
+        "stop" : 1622413648325,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible {xpath: .//*[contains(concat(' ', normalize-space(./@class), ' '), ' jq-icon-success ')][ancestor::*[contains(concat(' ', normalize-space(./@class), ' '), ' jq-toast-wrap ')]]}, 20",
+      "time" : {
+        "start" : 1622413648325,
+        "stop" : 1622413651309,
+        "duration" : 2984
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//input[@role = 'combobox'][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCityId']]}, 20",
+      "time" : {
+        "start" : 1622413651309,
+        "stop" : 1622413651314,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I scroll to {xpath: .//input[@role = 'combobox'][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCityId']]}",
+      "time" : {
+        "start" : 1622413651314,
+        "stop" : 1622413651434,
+        "duration" : 120
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for clickable {xpath: .//input[@role = 'combobox'][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCityId']]}, 20",
+      "time" : {
+        "start" : 1622413651434,
+        "stop" : 1622413651440,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I grab value from {xpath: .//input[@role = 'combobox'][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCityId']]}",
+      "time" : {
+        "start" : 1622413651440,
+        "stop" : 1622413651445,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I assert \"Bucharest\", \"Bucharest\"",
+      "time" : {
+        "start" : 1622413651445,
+        "stop" : 1622413651445,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//input[@role = 'combobox'][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCountryId']]}, 20",
+      "time" : {
+        "start" : 1622413651445,
+        "stop" : 1622413651449,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I scroll to {xpath: .//input[@role = 'combobox'][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCountryId']]}",
+      "time" : {
+        "start" : 1622413651449,
+        "stop" : 1622413651560,
+        "duration" : 111
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for clickable {xpath: .//input[@role = 'combobox'][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCountryId']]}, 20",
+      "time" : {
+        "start" : 1622413651560,
+        "stop" : 1622413651565,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I grab value from {xpath: .//input[@role = 'combobox'][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCountryId']]}",
+      "time" : {
+        "start" : 1622413651565,
+        "stop" : 1622413651569,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I assert \"Romania\", \"Romania\"",
+      "time" : {
+        "start" : 1622413651580,
+        "stop" : 1622413651580,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//div[@role = 'button'][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCityId_dropDownBox']]}, 20",
+      "time" : {
+        "start" : 1622413651580,
+        "stop" : 1622413651585,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for clickable {xpath: .//div[@role = 'button'][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCityId_dropDownBox']]}, 20",
+      "time" : {
+        "start" : 1622413651585,
+        "stop" : 1622413651590,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: .//div[@role = 'button'][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCityId_dropDownBox']]}",
+      "time" : {
+        "start" : 1622413651700,
+        "stop" : 1622413652089,
+        "duration" : 389
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible {\"class\":\"dx-loadindicator\"}, 20",
+      "time" : {
+        "start" : 1622413652089,
+        "stop" : 1622413652092,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible \"#osloader\", 20",
+      "time" : {
+        "start" : 1622413652092,
+        "stop" : 1622413652095,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[contains(., 'Arad')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}, 20",
+      "time" : {
+        "start" : 1622413652095,
+        "stop" : 1622413652099,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'Arad')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413652099,
+        "stop" : 1622413652103,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[contains(., 'Bacau')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}, 20",
+      "time" : {
+        "start" : 1622413652103,
+        "stop" : 1622413652107,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'Bacau')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413652107,
+        "stop" : 1622413652109,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[contains(., 'Braila')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}, 20",
+      "time" : {
+        "start" : 1622413652109,
+        "stop" : 1622413652111,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'Braila')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413652111,
+        "stop" : 1622413652112,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[contains(., 'Brasov')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}, 20",
+      "time" : {
+        "start" : 1622413652112,
+        "stop" : 1622413652114,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'Brasov')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413652114,
+        "stop" : 1622413652115,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[contains(., 'Bucharest')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}, 20",
+      "time" : {
+        "start" : 1622413652115,
+        "stop" : 1622413652116,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'Bucharest')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413652116,
+        "stop" : 1622413652117,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Barcelona')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413652117,
+        "stop" : 1622413652118,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Berlin')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413652118,
+        "stop" : 1622413652119,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Dortmund')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413652119,
+        "stop" : 1622413652121,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Lille')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413652121,
+        "stop" : 1622413652122,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Lyon')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413652122,
+        "stop" : 1622413652123,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Madrid')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413652123,
+        "stop" : 1622413652124,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Milano')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413652124,
+        "stop" : 1622413652125,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Monaco')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413652125,
+        "stop" : 1622413652126,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Napoli')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413652126,
+        "stop" : 1622413652127,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Paris')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413652127,
+        "stop" : 1622413652128,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Roma')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413652128,
+        "stop" : 1622413652129,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Valencia')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413652129,
+        "stop" : 1622413652130,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//div[@role = 'button'][contains(., '2')][ancestor::div[@class = 'dx-pages']]}, 20",
+      "time" : {
+        "start" : 1622413652131,
+        "stop" : 1622413652133,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: .//div[@role = 'button'][contains(., '2')][ancestor::div[@class = 'dx-pages']]}",
+      "time" : {
+        "start" : 1622413652244,
+        "stop" : 1622413652585,
+        "duration" : 341
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[contains(., 'Buzau')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}, 20",
+      "time" : {
+        "start" : 1622413652585,
+        "stop" : 1622413652593,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'Buzau')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413652593,
+        "stop" : 1622413652596,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[contains(., 'Cluj')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}, 20",
+      "time" : {
+        "start" : 1622413652596,
+        "stop" : 1622413652599,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'Cluj')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413652599,
+        "stop" : 1622413652602,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[contains(., 'Constanta')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}, 20",
+      "time" : {
+        "start" : 1622413652602,
+        "stop" : 1622413652603,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'Constanta')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413652604,
+        "stop" : 1622413652606,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[contains(., 'Iasi')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}, 20",
+      "time" : {
+        "start" : 1622413652606,
+        "stop" : 1622413652607,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'Iasi')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413652607,
+        "stop" : 1622413652609,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[contains(., 'Timisoara')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}, 20",
+      "time" : {
+        "start" : 1622413652609,
+        "stop" : 1622413652610,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'Timisoara')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413652610,
+        "stop" : 1622413652611,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Barcelona')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413652611,
+        "stop" : 1622413652612,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Berlin')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413652612,
+        "stop" : 1622413652613,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Dortmund')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413652613,
+        "stop" : 1622413652614,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Lille')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413652614,
+        "stop" : 1622413652615,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Lyon')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413652615,
+        "stop" : 1622413652616,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Madrid')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413652616,
+        "stop" : 1622413652617,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Milano')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413652617,
+        "stop" : 1622413652618,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Monaco')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413652618,
+        "stop" : 1622413652619,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Napoli')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413652619,
+        "stop" : 1622413652620,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Paris')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413652620,
+        "stop" : 1622413652622,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Roma')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413652622,
+        "stop" : 1622413652623,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Valencia')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413652623,
+        "stop" : 1622413652624,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//div[@role = 'button'][contains(., '1')][ancestor::div[@class = 'dx-pages']]}, 20",
+      "time" : {
+        "start" : 1622413652624,
+        "stop" : 1622413652626,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: .//div[@role = 'button'][contains(., '1')][ancestor::div[@class = 'dx-pages']]}",
+      "time" : {
+        "start" : 1622413652725,
+        "stop" : 1622413653068,
+        "duration" : 343
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//div[@role = 'button'][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCityId_dropDownBox']]}, 20",
+      "time" : {
+        "start" : 1622413653068,
+        "stop" : 1622413653075,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for clickable {xpath: .//div[@role = 'button'][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCityId_dropDownBox']]}, 20",
+      "time" : {
+        "start" : 1622413653075,
+        "stop" : 1622413653080,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: .//div[@role = 'button'][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCityId_dropDownBox']]}",
+      "time" : {
+        "start" : 1622413653192,
+        "stop" : 1622413653535,
+        "duration" : 343
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible {\"class\":\"dx-loadindicator\"}, 20",
+      "time" : {
+        "start" : 1622413653535,
+        "stop" : 1622413653539,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible \"#osloader\", 20",
+      "time" : {
+        "start" : 1622413653539,
+        "stop" : 1622413653541,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//div[@role = 'button'][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCountryId_dropDownBox']]}, 20",
+      "time" : {
+        "start" : 1622413653541,
+        "stop" : 1622413653545,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for clickable {xpath: .//div[@role = 'button'][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCountryId_dropDownBox']]}, 20",
+      "time" : {
+        "start" : 1622413653545,
+        "stop" : 1622413653549,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: .//div[@role = 'button'][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCountryId_dropDownBox']]}",
+      "time" : {
+        "start" : 1622413653658,
+        "stop" : 1622413654018,
+        "duration" : 360
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible {\"class\":\"dx-loadindicator\"}, 20",
+      "time" : {
+        "start" : 1622413654018,
+        "stop" : 1622413654021,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible \"#osloader\", 20",
+      "time" : {
+        "start" : 1622413654021,
+        "stop" : 1622413654023,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[contains(., 'France')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}, 20",
+      "time" : {
+        "start" : 1622413654023,
+        "stop" : 1622413654027,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'France')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413654027,
+        "stop" : 1622413654030,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[contains(., 'Germany')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}, 20",
+      "time" : {
+        "start" : 1622413654030,
+        "stop" : 1622413654033,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'Germany')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413654034,
+        "stop" : 1622413654036,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[contains(., 'Italy')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}, 20",
+      "time" : {
+        "start" : 1622413654036,
+        "stop" : 1622413654040,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'Italy')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413654040,
+        "stop" : 1622413654042,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[contains(., 'Romania')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}, 20",
+      "time" : {
+        "start" : 1622413654042,
+        "stop" : 1622413654044,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'Romania')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413654044,
+        "stop" : 1622413654046,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[contains(., 'Spain')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}, 20",
+      "time" : {
+        "start" : 1622413654046,
+        "stop" : 1622413654048,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'Spain')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413654048,
+        "stop" : 1622413654049,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//input[@role = 'textbox'][ancestor::div[@class = 'dx-editor-with-menu']][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCountryId_dataGrid']]}, 20",
+      "time" : {
+        "start" : 1622413654050,
+        "stop" : 1622413654052,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I fill field {xpath: .//input[@role = 'textbox'][ancestor::div[@class = 'dx-editor-with-menu']][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCountryId_dataGrid']]}, \"Italy\"",
+      "time" : {
+        "start" : 1622413654158,
+        "stop" : 1622413654565,
+        "duration" : 407
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//td[contains(., 'Italy')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCountryId_dataGrid']]}, 20",
+      "time" : {
+        "start" : 1622413654565,
+        "stop" : 1622413654571,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: .//td[contains(., 'Italy')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCountryId_dataGrid']]}",
+      "time" : {
+        "start" : 1622413654675,
+        "stop" : 1622413655037,
+        "duration" : 362
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//div[@role = 'button'][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCityId_dropDownBox']]}, 20",
+      "time" : {
+        "start" : 1622413655037,
+        "stop" : 1622413655043,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for clickable {xpath: .//div[@role = 'button'][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCityId_dropDownBox']]}, 20",
+      "time" : {
+        "start" : 1622413655043,
+        "stop" : 1622413655047,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: .//div[@role = 'button'][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCityId_dropDownBox']]}",
+      "time" : {
+        "start" : 1622413655147,
+        "stop" : 1622413655494,
+        "duration" : 347
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible {\"class\":\"dx-loadindicator\"}, 20",
+      "time" : {
+        "start" : 1622413655494,
+        "stop" : 1622413655497,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible \"#osloader\", 20",
+      "time" : {
+        "start" : 1622413655497,
+        "stop" : 1622413655499,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[contains(., 'Milano')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}, 20",
+      "time" : {
+        "start" : 1622413655499,
+        "stop" : 1622413655503,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'Milano')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413655503,
+        "stop" : 1622413655504,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[contains(., 'Napoli')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}, 20",
+      "time" : {
+        "start" : 1622413655504,
+        "stop" : 1622413655507,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'Napoli')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413655507,
+        "stop" : 1622413655510,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[contains(., 'Roma')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}, 20",
+      "time" : {
+        "start" : 1622413655510,
+        "stop" : 1622413655512,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'Roma')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413655512,
+        "stop" : 1622413655513,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Arad')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413655513,
+        "stop" : 1622413655514,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Bacau')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413655514,
+        "stop" : 1622413655515,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Braila')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413655515,
+        "stop" : 1622413655516,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Brasov')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413655516,
+        "stop" : 1622413655517,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Bucharest')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413655517,
+        "stop" : 1622413655518,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Buzau')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413655518,
+        "stop" : 1622413655519,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Cluj')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413655519,
+        "stop" : 1622413655520,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Constanta')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413655520,
+        "stop" : 1622413655520,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Iasi')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413655521,
+        "stop" : 1622413655521,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Timisoara')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413655521,
+        "stop" : 1622413655522,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Barcelona')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413655522,
+        "stop" : 1622413655523,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Berlin')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413655523,
+        "stop" : 1622413655524,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Dortmund')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413655524,
+        "stop" : 1622413655525,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Lille')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413655525,
+        "stop" : 1622413655526,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Lyon')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413655526,
+        "stop" : 1622413655527,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Madrid')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413655527,
+        "stop" : 1622413655530,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Monaco')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413655530,
+        "stop" : 1622413655531,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Paris')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413655531,
+        "stop" : 1622413655532,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I dont see element {xpath: .//td[contains(., 'Valencia')][@role = 'gridcell'][ancestor::div[@class = 'dx-datagrid-content']]}",
+      "time" : {
+        "start" : 1622413655532,
+        "stop" : 1622413655533,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//td[contains(., 'Roma')][@role = 'gridcell'][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCityId_dataGrid']]}, 20",
+      "time" : {
+        "start" : 1622413655533,
+        "stop" : 1622413655535,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I double click {xpath: .//td[contains(., 'Roma')][@role = 'gridcell'][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCityId_dataGrid']]}",
+      "time" : {
+        "start" : 1622413655535,
+        "stop" : 1622413655683,
+        "duration" : 148
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: .//td[contains(., 'Roma')][@role = 'gridcell'][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCityId_dataGrid']]}",
+      "time" : {
+        "start" : 1622413655792,
+        "stop" : 1622413656136,
+        "duration" : 344
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible {\"class\":\"dx-loadindicator\"}, 20",
+      "time" : {
+        "start" : 1622413656136,
+        "stop" : 1622413656139,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible \"#osloader\", 20",
+      "time" : {
+        "start" : 1622413656139,
+        "stop" : 1622413656141,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible \"#RefreshBtn\", 20",
+      "time" : {
+        "start" : 1622413656141,
+        "stop" : 1622413656144,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for clickable \"#RefreshBtn\", 20",
+      "time" : {
+        "start" : 1622413656144,
+        "stop" : 1622413656146,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I move cursor to \"#RefreshBtn\"",
+      "time" : {
+        "start" : 1622413656146,
+        "stop" : 1622413656263,
+        "duration" : 117
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click \"#RefreshBtn\"",
+      "time" : {
+        "start" : 1622413656374,
+        "stop" : 1622413656721,
+        "duration" : 347
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible \".jq-toast-wrap\", 20",
+      "time" : {
+        "start" : 1622413656721,
+        "stop" : 1622413656737,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible {\"class\":\"dx-loadindicator\"}, 20",
+      "time" : {
+        "start" : 1622413656737,
+        "stop" : 1622413656740,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible \"#osloader\", 20",
+      "time" : {
+        "start" : 1622413656740,
+        "stop" : 1622413656741,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//*[contains(concat(' ', normalize-space(./@class), ' '), ' jq-icon-success ')][ancestor::*[contains(concat(' ', normalize-space(./@class), ' '), ' jq-toast-wrap ')]]}, 60",
+      "time" : {
+        "start" : 1622413656741,
+        "stop" : 1622413656759,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for clickable {xpath: .//*[contains(concat(' ', normalize-space(./@class), ' '), ' jq-icon-success ')][ancestor::*[contains(concat(' ', normalize-space(./@class), ' '), ' jq-toast-wrap ')]]}, 20",
+      "time" : {
+        "start" : 1622413656760,
+        "stop" : 1622413656764,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible {xpath: .//*[contains(concat(' ', normalize-space(./@class), ' '), ' jq-icon-success ')][ancestor::*[contains(concat(' ', normalize-space(./@class), ' '), ' jq-toast-wrap ')]]}, 20",
+      "time" : {
+        "start" : 1622413656764,
+        "stop" : 1622413660192,
+        "duration" : 3428
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//input[@role = 'combobox'][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCityId']]}, 20",
+      "time" : {
+        "start" : 1622413660192,
+        "stop" : 1622413660197,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I scroll to {xpath: .//input[@role = 'combobox'][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCityId']]}",
+      "time" : {
+        "start" : 1622413660197,
+        "stop" : 1622413660313,
+        "duration" : 116
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for clickable {xpath: .//input[@role = 'combobox'][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCityId']]}, 20",
+      "time" : {
+        "start" : 1622413660313,
+        "stop" : 1622413660319,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I grab value from {xpath: .//input[@role = 'combobox'][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCityId']]}",
+      "time" : {
+        "start" : 1622413660319,
+        "stop" : 1622413660324,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I assert \"Roma\", \"Roma\"",
+      "time" : {
+        "start" : 1622413660325,
+        "stop" : 1622413660325,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//input[@role = 'combobox'][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCountryId']]}, 20",
+      "time" : {
+        "start" : 1622413660325,
+        "stop" : 1622413660329,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I scroll to {xpath: .//input[@role = 'combobox'][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCountryId']]}",
+      "time" : {
+        "start" : 1622413660329,
+        "stop" : 1622413660453,
+        "duration" : 124
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for clickable {xpath: .//input[@role = 'combobox'][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCountryId']]}, 20",
+      "time" : {
+        "start" : 1622413660453,
+        "stop" : 1622413660460,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I grab value from {xpath: .//input[@role = 'combobox'][ancestor::div[@id = 'ebsContainerContent_AT_ForFFCountryId']]}",
+      "time" : {
+        "start" : 1622413660460,
+        "stop" : 1622413660464,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I assert \"Italy\", \"Italy\"",
+      "time" : {
+        "start" : 1622413660465,
+        "stop" : 1622413660465,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible {\"class\":\"dx-loadindicator\"}, 20",
+      "time" : {
+        "start" : 1622413660465,
+        "stop" : 1622413660467,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible \"#osloader\", 20",
+      "time" : {
+        "start" : 1622413660467,
+        "stop" : 1622413660468,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//a[@data-toggle = 'dropdown']}, 20",
+      "time" : {
+        "start" : 1622413660468,
+        "stop" : 1622413660472,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: .//a[@data-toggle = 'dropdown']}",
+      "time" : {
+        "start" : 1622413660577,
+        "stop" : 1622413660952,
+        "duration" : 375
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//a[@class = 'log-off-link'][ancestor::div[@class = 'account-footer']]}, 20",
+      "time" : {
+        "start" : 1622413660952,
+        "stop" : 1622413660957,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for clickable {xpath: .//a[@class = 'log-off-link'][ancestor::div[@class = 'account-footer']]}, 20",
+      "time" : {
+        "start" : 1622413660957,
+        "stop" : 1622413660961,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: .//a[@class = 'log-off-link'][ancestor::div[@class = 'account-footer']]}",
+      "time" : {
+        "start" : 1622413661063,
+        "stop" : 1622413661410,
+        "duration" : 347
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible \".btn-login\", 20",
+      "time" : {
+        "start" : 1622413661410,
+        "stop" : 1622413661417,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 325,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Filtered Fields:"
+  }, {
+    "name" : "testClass",
+    "value" : "Filtered Fields:"
+  }, {
+    "name" : "testMethod",
+    "value" : "Use Filtered Field - Form Lookup as Dropdown"
+  }, {
+    "name" : "package",
+    "value" : "Filtered Fields:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "90d04ad4e5e7d575.json",
+  "parameterValues" : [ ]
+}

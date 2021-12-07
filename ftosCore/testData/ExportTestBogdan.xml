@@ -1,0 +1,72 @@
+<CustomizationSet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="ExportTestBogdan - 1.0" moduleName="ExportTestBogdan" type="Basic" version="1.0">
+  <EmailTemplates />
+  <CustomActions />
+  <OptionSets />
+  <EntityStatuses />
+  <Actions />
+  <ActionGroups />
+  <EntityMenuSections />
+  <DataImportTemplates />
+  <SystemPramaters />
+  <Entities>
+    <Entity name="Exportentityfortest" displayName="Export Test" displayCollectionName="Export" isIntersect="false" isSystemEntity="false" tableName="Exportentityfortest" showInMenu="false" iconUrl="pe-7s-umbrella" orderIndex="22" primaryAttributeName="ExportAttribute" primaryAttributeDisplayName="Export Attribute" primaryAttributeTableColumnName="ExportAttribute" defaultEntityStatusName="Draft" autoGenerateForm="true" dataOptimization="false" AllowEdit="false" AllowDelete="false" AllowAddAttributes="false" AllowEditAttributes="false" AllowDeleteAttributes="false" AllowAddViews="false" AllowEditViews="false" AllowDeleteViews="false" AllowAddForms="false" AllowEditForms="false" AllowDeleteForms="false">
+      <Attributes>
+        <Attribute entityName="Exportentityfortest" name="RandomExportAttribute" isPrimaryKey="false" isNamedAttribute="false" isIdentity="false" isReadonly="false" isLocalizable="false" attributeTypeValue="7" precision="0" length="0" displayName="Random Attribute" tableColumnName="RandomExportAttribute" enumRequiredLevel="1" AllowEdit="false" AllowDelete="false" />
+      </Attributes>
+      <Relationships />
+      <EntityForms>
+        <EntityForm entityName="Exportentityfortest" name="default" isDefault="true" isDefaultEdit="true" renderTabsAsBullets="true" stickyHeaderItems="true" wizardMode="false" description="" isUserJourney="false" showTooltipsValue="0" AllowEdit="false" AllowDelete="false">
+          <WizardOptions />
+          <Template>
+                    &lt;div class="row"&gt;
+                        &lt;div class="col-xs-12"&gt;
+                            &lt;h4&gt;{ Exportentityfortest | entity }&lt;/h4&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;div&gt;
+                    &lt;div class="row"&gt;
+                        &lt;div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 form-label" data-label-for="ExportAttribute"&gt;{ ExportAttribute | attribute}&lt;/div&gt;
+                        &lt;div class="col-lg-8 col-md-8 col-sm-8 col-xs-12"&gt;{ExportAttribute}&lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div&gt;
+                    &lt;div class="row"&gt;
+                        &lt;div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 form-label" data-label-for="RandomExportAttribute"&gt;{ RandomExportAttribute | attribute}&lt;/div&gt;
+                        &lt;div class="col-lg-8 col-md-8 col-sm-8 col-xs-12"&gt;{RandomExportAttribute}&lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;&lt;div class="row"&gt;&lt;div class="col-xs-12"&gt;&lt;hr /&gt;&lt;/div&gt;&lt;/div&gt;</Template>
+          <HeaderItems />
+          <FooterItems />
+          <FilteredFields />
+          <OptionFields />
+          <Sections />
+          <EntityFormSecurityRoles />
+        </EntityForm>
+      </EntityForms>
+      <EntityViews>
+        <EntityView entityName="Exportentityfortest" name="default" isDefault="true" showViewButton="false" data="ExportAttribute" AllowEdit="false" AllowDelete="false">
+          <SortExpression>ExportAttribute*asc</SortExpression>
+          <EntityViewColumns />
+        </EntityView>
+      </EntityViews>
+    </Entity>
+  </Entities>
+  <Forms />
+  <Views />
+  <Attributes />
+  <Charts />
+  <Dashboards />
+  <Reports />
+  <Workflows />
+  <WorkflowLibraries />
+  <DocumentReports />
+  <BusinessWorkflows />
+  <Relationships />
+  <CoreSettings>
+    <CoreSetting name="ScmBuildId" value="CORE~RLS~Main~18.1.x b289" />
+    <CoreSetting name="ScmReleaseId" value="FTOS-CORE-RLS-v18.1.8.0-b289-RC" />
+    <CoreSetting name="ScmVersionNo" value="18.1.8.0" />
+  </CoreSettings>
+  <ClientScriptLibraries />
+  <HtmlWidgets />
+</CustomizationSet>

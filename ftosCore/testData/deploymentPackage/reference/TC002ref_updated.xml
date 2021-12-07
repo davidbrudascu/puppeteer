@@ -1,0 +1,129 @@
+<CustomizationSet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="AT_editDeleteDPUpdate - 21.1.0" moduleName="AT_editDeleteDPUpdate" type="Basic" version="21.1.0" deployAuditConfig="false">
+  <EmailTemplates />
+  <CustomActions />
+  <OptionSets />
+  <EntityStatuses />
+  <Actions />
+  <ActionGroups />
+  <EntityMenuSections />
+  <DataImportTemplates />
+  <SystemPramaters />
+  <Entities>
+    <Entity name="AT_AddColorAttr" displayName="AT_AddColorAttr" displayCollectionName="AT_AddColorAttr" isIntersect="false" isSystemEntity="false" tableName="AT_AddColorAttr" isAudited="false" showInMenu="false" iconUrl="pe-7s-album" orderIndex="65" primaryAttributeName="Name" primaryAttributeDisplayName="Name" primaryAttributeTableColumnName="Name" primaryAttributeLength="100" defaultEntityStatusName="Active" dataOptimization="false" entityTypeName="platformData" AllowEdit="false" AllowDelete="false" AllowAddAttributes="false" AllowEditAttributes="false" AllowDeleteAttributes="false" AllowAddViews="false" AllowEditViews="false" AllowDeleteViews="false" AllowAddForms="false" AllowEditForms="false" AllowDeleteForms="false" AllowAddExtensions="false" AllowEditExtensions="false" AllowDeleteExtensions="false">
+      <localization>
+        <cultures>
+          <culture name="ro-RO">
+            <keys>
+              <key name="displayName" value="AT_AddColorAttr" />
+              <key name="displayCollectionName" value="AT_AddColorAttr" />
+            </keys>
+          </culture>
+        </cultures>
+      </localization>
+      <Attributes>
+        <Attribute entityName="AT_AddColorAttr" name="AT_AddColorAttrid" isPrimaryKey="true" isNamedAttribute="false" isIdentity="false" isReadonly="false" isSecurable="false" isLocalizable="false" isExternalId="false" attributeTypeValue="1" precision="0" length="0" displayName="AT_AddColorAttrid" tableColumnName="AT_AddColorAttrid" enumRequiredLevel="0" orderIndex="1" maxNumberOfFiles="0" AllowEdit="false" AllowDelete="false">
+          <localization>
+            <cultures>
+              <culture name="ro-RO">
+                <keys>
+                  <key name="displayName" value="AT_AddColorAttrid" />
+                </keys>
+              </culture>
+            </cultures>
+          </localization>
+        </Attribute>
+        <Attribute entityName="AT_AddColorAttr" name="Name" isPrimaryKey="false" isNamedAttribute="true" isIdentity="false" isReadonly="false" isSecurable="false" isLocalizable="false" isExternalId="false" attributeTypeValue="3" precision="0" length="100" displayName="Name" tableColumnName="Name" enumRequiredLevel="0" orderIndex="2" maxNumberOfFiles="0" AllowEdit="false" AllowDelete="false">
+          <localization>
+            <cultures>
+              <culture name="ro-RO">
+                <keys>
+                  <key name="displayName" value="Name" />
+                </keys>
+              </culture>
+            </cultures>
+          </localization>
+        </Attribute>
+      </Attributes>
+      <Relationships />
+      <EntityExtensions />
+      <EntityForms>
+        <EntityForm entityName="AT_AddColorAttr" name="default" isDefault="true" isDefaultEdit="true" isSystem="false" renderTabsAsBullets="true" stickyHeaderItems="true" wizardMode="false" description="" isUserJourney="false" showTooltipsValue="0" autoGenerateTemplate="true" autoGenerateTemplateTypeValue="0" creationVersion="20.1.0.0" AllowEdit="false" AllowDelete="false">
+          <WizardOptions />
+          <Template>
+                    &lt;div class="row"&gt;
+                        &lt;div class="col-xs-12"&gt;
+                            &lt;h4&gt;{ AT_AddColorAttr | entity }&lt;/h4&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;&lt;div class="row"&gt;&lt;div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 form-label" data-label-for="Name"&gt;{ Name | attribute}&lt;/div&gt;
+    &lt;div class="col-lg-8 col-md-8 col-sm-8 col-xs-12"&gt;{Name}&lt;/div&gt;&lt;/div&gt;</Template>
+          <HeaderItems />
+          <EntityFormEntityExtensions />
+          <FooterItems />
+          <FilteredFields />
+          <OptionFields />
+          <Sections />
+          <EntityFormSectionRules />
+          <AllowedAttributes />
+          <AllowedVirtualAttributes />
+        </EntityForm>
+      </EntityForms>
+      <EntityViews>
+        <EntityView entityName="AT_AddColorAttr" name="default" displayName="default" isDefault="true" showViewButton="false" data="Name" AllowEdit="false" AllowDelete="false" isSystem="false" showDisplayNameAsTitle="false">
+          <localization>
+            <cultures>
+              <culture name="ro-RO">
+                <keys>
+                  <key name="displayName" value="default" />
+                </keys>
+              </culture>
+            </cultures>
+          </localization>
+          <SortExpression>Name*asc</SortExpression>
+          <EntityViewColumns />
+          <EntityViewParameters />
+        </EntityView>
+      </EntityViews>
+      <EntityUniqueConstraints />
+      <CreateDefaultForm>false</CreateDefaultForm>
+      <CreateDefaultEditForm>false</CreateDefaultEditForm>
+      <CreateDefaultView>false</CreateDefaultView>
+    </Entity>
+  </Entities>
+  <EntityExtensions />
+  <Forms />
+  <Views />
+  <Attributes />
+  <Charts />
+  <Dashboards />
+  <Reports />
+  <Workflows />
+  <WorkflowLibraries />
+  <DocumentReports />
+  <BusinessWorkflows />
+  <BWConfigs />
+  <Relationships />
+  <ClientScriptLibraries />
+  <HtmlWidgets />
+  <StyleSheets />
+  <MenuItems />
+  <UserCompetences />
+  <UserCompetenceTypes />
+  <PowerBIReports />
+  <CodeBlocks />
+  <LookupCorrelationAttributes />
+  <BusinessDataModels />
+  <DBTasks />
+  <PortalProfiles />
+  <DigitalJourneys />
+  <Formulas />
+  <CoefficientValues />
+  <WebApiClientLibraries />
+  <Sequencers />
+  <DataConfigDefinitions />
+  <DataMappings />
+  <Applications />
+  <ScheduleTriggers />
+  <EntityUniqueConstraints />
+  <CustomPageTemplates />
+  <AuthOperationTypes />
+</CustomizationSet>

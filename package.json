@@ -1,5 +1,49 @@
 {
+  "name": "ftos-automated-tests",
+  "version": "1.0.0",
+  "description": "FTOS CodeceptJS automated test suite. RT = RegressionTests ; ST = Smoke Tests",
+  "keywords": [],
+  "author": "",
+  "license": "Proprietary",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "empty-output": "@powershell Remove-Item ./config/output/* -Recurse -Force;",
+    "test-local": "npm run empty-output && npx codeceptjs run -c ./config/local.conf.js --steps --plugins allure",
+    "test-tag": "npm run empty-output && npx codeceptjs run -c ./config/local.conf.js --steps --plugins allure --grep",
+    "allure-generate": "npx allure generate -o ./config/output/allure/ ./config/output/",
+    "allure-serve": "npx allure serve ./config/output/",
+    "generate-defs": "npx codeceptjs def ./config/",
+    "postinstall": "npx link-module-alias"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://fin-tfs:8080/tfs/eBusiness/_git/AutomatedTests"
+  },
+  "devDependencies": {
+    "@codeceptjs/helper": "^1.0.2",
+    "eslint": "6.8.0",
+    "eslint-config-airbnb-base": "14.1.0",
+    "eslint-plugin-codeceptjs": "1.3.0",
+    "eslint-plugin-import": "2.20.2"
+  },
   "dependencies": {
-    "puppeteer": "^12.0.1"
+    "codeceptjs": "^3.0.7",
+    "codeceptjs-assert": "0.0.4",
+    "codeceptjs-resemblehelper": "^1.9.3",
+    "exceljs": "^4.2.0",
+    "html-minifier": "4.0.0",
+    "lighthouse": "^7.3.0",
+    "link-module-alias": "1.2.0",
+    "puppeteer": "5.0.0",
+    "xmldom": "^0.6.0"
+  },
+  "_moduleAliases": {
+    "~root": ".",
+    "~config": "./config",
+    "~actions": "./framework/actionDefinitions",
+    "~pages": "./framework/page",
+    "~data": "./ftosCore/testData",
+    "~scenarios": "./ftosCore/testScenarios"
   }
 }

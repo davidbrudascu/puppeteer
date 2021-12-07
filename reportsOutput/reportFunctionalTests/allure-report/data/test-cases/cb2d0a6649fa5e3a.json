@@ -1,0 +1,340 @@
+{
+  "uid" : "cb2d0a6649fa5e3a",
+  "name" : "User can edit, export, delete a Deployment Package",
+  "fullName" : "Deployment Packages:.User can edit, export, delete a Deployment Package",
+  "historyId" : "dbc59593393cb7131577e79cb887be8f",
+  "time" : {
+    "start" : 1622412273996,
+    "stop" : 1622412278981,
+    "duration" : 4985
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "ENOENT: no such file or directory, open '../config/output/downloads/AT_editDeleteDP - 21.0.0.xml'",
+  "statusTrace" : "Error: ENOENT: no such file or directory, open '../config/output/downloads/AT_editDeleteDP - 21.0.0.xml'\n                    at Object.openSync (fs.js:440:3)\n                    at Object.readFileSync (fs.js:342:35)\n                    at Object.parseModifyXml (C:\\Work\\GitHub\\AutomatedTests\\framework\\actionDefinitions\\dpActions.js:66:23)\n                    at Test.<anonymous> (C:\\Work\\GitHub\\AutomatedTests\\ftosCore\\testScenarios\\deploymentPackage\\TC002_editDeleteDP.js:24:13)\n                    at Context.test.fn (C:\\Work\\GitHub\\AutomatedTests\\node_modules\\codeceptjs\\lib\\scenario.js:78:14)\n                    at callFnAsync (C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runnable.js:386:21)\n                    at Test.Runnable.run (C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runnable.js:330:7)\n                    at Runner.runTest (C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runner.js:621:10)\n                    at C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runner.js:745:12\n                    at next (C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runner.js:538:14)\n                    at C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runner.js:548:7\n                    at next (C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runner.js:430:14)\n                    at cbHookRun (C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runner.js:495:7)\n                    at done (C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runnable.js:302:5)\n                    at C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runnable.js:363:11",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "ENOENT: no such file or directory, open '../config/output/downloads/AT_editDeleteDP - 21.0.0.xml'",
+    "statusTrace" : "Error: ENOENT: no such file or directory, open '../config/output/downloads/AT_editDeleteDP - 21.0.0.xml'\n                    at Object.openSync (fs.js:440:3)\n                    at Object.readFileSync (fs.js:342:35)\n                    at Object.parseModifyXml (C:\\Work\\GitHub\\AutomatedTests\\framework\\actionDefinitions\\dpActions.js:66:23)\n                    at Test.<anonymous> (C:\\Work\\GitHub\\AutomatedTests\\ftosCore\\testScenarios\\deploymentPackage\\TC002_editDeleteDP.js:24:13)\n                    at Context.test.fn (C:\\Work\\GitHub\\AutomatedTests\\node_modules\\codeceptjs\\lib\\scenario.js:78:14)\n                    at callFnAsync (C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runnable.js:386:21)\n                    at Test.Runnable.run (C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runnable.js:330:7)\n                    at Runner.runTest (C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runner.js:621:10)\n                    at C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runner.js:745:12\n                    at next (C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runner.js:538:14)\n                    at C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runner.js:548:7\n                    at next (C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runner.js:430:14)\n                    at cbHookRun (C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runner.js:495:7)\n                    at done (C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runnable.js:302:5)\n                    at C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runnable.js:363:11",
+    "steps" : [ {
+      "name" : "I am on page \"_Designer/Account/LogOn\"",
+      "time" : {
+        "start" : 1622412274281,
+        "stop" : 1622412275155,
+        "duration" : 874
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible {\"class\":\"dx-loadindicator\"}, 20",
+      "time" : {
+        "start" : 1622412275155,
+        "stop" : 1622412275158,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible \"#osloader\", 20",
+      "time" : {
+        "start" : 1622412275158,
+        "stop" : 1622412275165,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible #usernameField, 20",
+      "time" : {
+        "start" : 1622412275165,
+        "stop" : 1622412275169,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I fill field #usernameField, \"host\"",
+      "time" : {
+        "start" : 1622412275281,
+        "stop" : 1622412275672,
+        "duration" : 391
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I fill field \"#passwordField\", \"1234567\"",
+      "time" : {
+        "start" : 1622412275780,
+        "stop" : 1622412276216,
+        "duration" : 436
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for clickable \".btn-login\", 20",
+      "time" : {
+        "start" : 1622412276216,
+        "stop" : 1622412276222,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click \".btn-login\"",
+      "time" : {
+        "start" : 1622412276324,
+        "stop" : 1622412276684,
+        "duration" : 360
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//span[contains(., 'My account')][ancestor::div[@class = 'account-footer']]}, 60",
+      "time" : {
+        "start" : 1622412276684,
+        "stop" : 1622412277134,
+        "duration" : 450
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I am on page \"_Designer/Main#/entity/customizationset/edit/7abac725-b530-4280-966d-bc5cf2822977\"",
+      "time" : {
+        "start" : 1622412277134,
+        "stop" : 1622412278435,
+        "duration" : 1301
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible {\"class\":\"dx-loadindicator\"}, 20",
+      "time" : {
+        "start" : 1622412278435,
+        "stop" : 1622412278439,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible \"#osloader\", 20",
+      "time" : {
+        "start" : 1622412278439,
+        "stop" : 1622412278441,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I handle downloads ",
+      "time" : {
+        "start" : 1622412278441,
+        "stop" : 1622412278442,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//a[@id = 'ExportCSBtn'][ancestor::div[@class = 'sticky-header-holder']]}, 60",
+      "time" : {
+        "start" : 1622412278442,
+        "stop" : 1622412278447,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: .//a[@id = 'ExportCSBtn'][ancestor::div[@class = 'sticky-header-holder']]}",
+      "time" : {
+        "start" : 1622412278559,
+        "stop" : 1622412278929,
+        "duration" : 370
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I am in path \"../config/output/downloads/\"",
+      "time" : {
+        "start" : 1622412278930,
+        "stop" : 1622412278930,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for file \"AT_editDeleteDP - 21.0.0.xml\", 20",
+      "time" : {
+        "start" : 1622412278930,
+        "stop" : 1622412278980,
+        "duration" : 50
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see file \"AT_editDeleteDP - 21.0.0.xml\"",
+      "time" : {
+        "start" : 1622412278980,
+        "stop" : 1622412278981,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "26a3009c3fe0d50b",
+      "name" : "Last Seen Screenshot",
+      "source" : "26a3009c3fe0d50b.png",
+      "type" : "image/png",
+      "size" : 355916
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 18,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Deployment Packages:"
+  }, {
+    "name" : "testClass",
+    "value" : "Deployment Packages:"
+  }, {
+    "name" : "testMethod",
+    "value" : "User can edit, export, delete a Deployment Package"
+  }, {
+    "name" : "package",
+    "value" : "Deployment Packages:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "cb2d0a6649fa5e3a.json",
+  "parameterValues" : [ ]
+}

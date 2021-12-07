@@ -1,0 +1,16 @@
+{
+  "urlDesigner": "_Designer/Account/LogOn",
+  "username": "host",
+  "password": "1234567",
+  "workflowUrl": "_Designer/Main#/entity/workflow/list",
+  "scriptName": "AT_WSDLScript",
+  "onDemandScriptType": "On demand",
+  "codeFirstPart": "var rootUrl = '",
+  "codeLastPart": "_Designer';\nvar authRsp = httpPost(rootUrl + '/api/authorize/gettoken', {\n    client_id: \"1\",\n    username: \"host\",\n    password: \"1234567\"\n});\n\nvar wsdl = importWebApiClient('FTOSwsdl', rootUrl + '/Services/ApiService.svc', 'BasicHttpBinding_IApiService');\ntry {\n\n    var entityMeta = wsdl.getEntityMetadata({\n        userName : 'host',\n        token :  authRsp.Response.access_token\n    },  'webApiClientLibrary');\n    var jsonResp = JSON.parse(entityMeta);\n    throwException(jsonResp.Name);\n}\ncatch(err) {\n    throw err;\n}",
+  "consoleScript": "ebs.callActionByName('AT_WSDLScript');",
+  "niceDescription": "This is a nice description.",
+  "updatedCodeFirstPart": "var rootUrl = '" ,
+  "updatedCodeLastPart": "_Designer';\nvar authRsp = httpPost(rootUrl + '/api/authorize/gettoken', {\n    client_id: \"1\",\n    username: \"host\",\n    password: \"1234567\"\n});\n\nvar wsdl = importWebApiClient('FTOSwsdl', rootUrl + '/Services/ApiService.svc', 'BasicHttpBinding_IApiService');\ntry {\n\n    var entityMeta = wsdl.getEntityMetadata({\n        userName : 'host',\n        token :  authRsp.Response.access_token\n    },  'webApiClientLibrary');\n    var jsonResp = JSON.parse(entityMeta);\n    throwException('Updated: ' + jsonResp.Name);\n}\ncatch(err) {\n    throw err;\n}",
+  "firstError": "JavaScriptException webApiClientLibrary. Location: AT_WSDLScript (Line: 19, Column: 4)",
+  "secondError": "JavaScriptException Updated: webApiClientLibrary. Location: AT_WSDLScript (Line: 19, Column: 4)"
+}

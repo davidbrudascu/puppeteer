@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-16"?>
+<DataConfigDeploymentPackageClass xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/EBS.Core.Data.Services.DataConfig">
+  <CoreSettings>
+    <CoreSettingClass>
+      <Name>ScmReleaseId</Name>
+      <Value>FTOS-CORE-RLS-21.2.1.0</Value>
+    </CoreSettingClass>
+    <CoreSettingClass>
+      <Name>ScmBuildId</Name>
+      <Value>168eee767c3d79507c5c30bce7de5085cfbffa89</Value>
+    </CoreSettingClass>
+    <CoreSettingClass>
+      <Name>ScmVersionNo</Name>
+      <Value>21.2.1.0</Value>
+    </CoreSettingClass>
+  </CoreSettings>
+  <Data>
+    <ActionName i:nil="true" />
+    <AssemblyFileVersion>0.0.0.0</AssemblyFileVersion>
+    <EngineVersion>1.4.0</EngineVersion>
+    <ForceCleanImport>false</ForceCleanImport>
+    <IsVersionable>false</IsVersionable>
+    <MasterEntityName>AS_Entity</MasterEntityName>
+    <Metadata>
+      <ExternalReferences>
+        <DataConfigExternalReference>
+          <EntityName>entitystatus</EntityName>
+          <Name>NameConstraint</Name>
+          <Query><![CDATA[
+                        SELECT
+                            E.$c[entitystatusid] 
+                        FROM 
+                            $e[entitystatus] E
+                        WHERE
+                             E.$c[name] = @Name]]></Query>
+        </DataConfigExternalReference>
+      </ExternalReferences>
+      <UniqueConstraints>
+        <DataConfigUniqueConstraint>
+          <EntityName>AS_Entity</EntityName>
+          <Name>name</Name>
+          <Query><![CDATA[
+                        SELECT
+                            E.$c[AS_Entityid] 
+                        FROM 
+                            $e[AS_Entity] E
+                        WHERE
+                             E.$c[name] = @Name]]></Query>
+        </DataConfigUniqueConstraint>
+      </UniqueConstraints>
+    </Metadata>
+    <rows>
+      <DataConfigRow>
+        <EntityName>AS_Entity</EntityName>
+        <RowId>1</RowId>
+        <columns>
+          <DataConfigColumn i:type="PkColumn">
+            <Name>AS_Entityid</Name>
+            <Value>
+              <Value>0d31021b-7b5b-482a-96df-9861284e6d5a</Value>
+            </Value>
+          </DataConfigColumn>
+          <DataConfigColumn i:type="DataColumn">
+            <Name>entityStatusId</Name>
+            <Value i:type="ExternalReference">
+              <Name>entitystatus</Name>
+              <Parameters>
+                <ReferenceParameter>
+                  <Name>Name</Name>
+                  <Value>Active</Value>
+                </ReferenceParameter>
+              </Parameters>
+            </Value>
+          </DataConfigColumn>
+          <DataConfigColumn i:type="DataColumn">
+            <Name>name</Name>
+            <Value i:type="ConstantReference">
+              <Value>1</Value>
+            </Value>
+          </DataConfigColumn>
+        </columns>
+      </DataConfigRow>
+    </rows>
+  </Data>
+  <DataConfigDefinition>
+    <DataDefinitionJson>{"IncludeBusinessUnit":false,"IncludeBusinessStatus":false,"MirrorCollection":false,"DisplayName":"AS_Entity","Description":null,"EntityName":"AS_Entity","Identification":{"ConstraintName":"name","Attributes":[{"Name":"name"}]},"DictionaryLkpAttributes":[],"Children":[],"SpecializedOneToOne":[],"LinkedOneToOne":[],"NtoNCollection":[],"ParentCollection":[]}</DataDefinitionJson>
+    <Name>AS_DataConfig</Name>
+  </DataConfigDefinition>
+  <Description i:nil="true" />
+  <DisplayName>AS</DisplayName>
+  <Items>
+    <DataConfigDeploymentPackageItemClass>
+      <Data>{&#xD;
+  "name": "1"&#xD;
+}</Data>
+      <MasterEntityName>AS_Entity</MasterEntityName>
+      <Name>1</Name>
+      <RecordId>0d31021b-7b5b-482a-96df-9861284e6d5a</RecordId>
+    </DataConfigDeploymentPackageItemClass>
+  </Items>
+  <Localization xmlns:d2p1="http://schemas.datacontract.org/2004/07/EBS.Core.Utils">
+    <d2p1:Cultures>
+      <d2p1:CultureClass>
+        <d2p1:Keys>
+          <d2p1:KeyClass>
+            <d2p1:Name>displayName</d2p1:Name>
+            <d2p1:Value>AS</d2p1:Value>
+          </d2p1:KeyClass>
+        </d2p1:Keys>
+        <d2p1:Name>de-DE</d2p1:Name>
+      </d2p1:CultureClass>
+      <d2p1:CultureClass>
+        <d2p1:Keys>
+          <d2p1:KeyClass>
+            <d2p1:Name>displayName</d2p1:Name>
+            <d2p1:Value>AS</d2p1:Value>
+          </d2p1:KeyClass>
+        </d2p1:Keys>
+        <d2p1:Name>es</d2p1:Name>
+      </d2p1:CultureClass>
+      <d2p1:CultureClass>
+        <d2p1:Keys>
+          <d2p1:KeyClass>
+            <d2p1:Name>displayName</d2p1:Name>
+            <d2p1:Value>AS</d2p1:Value>
+          </d2p1:KeyClass>
+        </d2p1:Keys>
+        <d2p1:Name>es-ES</d2p1:Name>
+      </d2p1:CultureClass>
+      <d2p1:CultureClass>
+        <d2p1:Keys>
+          <d2p1:KeyClass>
+            <d2p1:Name>displayName</d2p1:Name>
+            <d2p1:Value>AS</d2p1:Value>
+          </d2p1:KeyClass>
+        </d2p1:Keys>
+        <d2p1:Name>ro-RO</d2p1:Name>
+      </d2p1:CultureClass>
+    </d2p1:Cultures>
+  </Localization>
+  <Name>AS</Name>
+  <Version>1</Version>
+</DataConfigDeploymentPackageClass>

@@ -1,0 +1,790 @@
+{
+  "uid" : "ae82e959f9772cc7",
+  "name" : "User can create a Deployment Package, add an Entity component and export it.",
+  "fullName" : "Deployment Packages:.User can create a Deployment Package, add an Entity component and export it.",
+  "historyId" : "4dea67a4d2f44bc7c7d7755adcdd2388",
+  "time" : {
+    "start" : 1622412257015,
+    "stop" : 1622412273618,
+    "duration" : 16603
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "ENOENT: no such file or directory, open '../config/output/downloads/AT_TC001 - 21.0.0.xml'",
+  "statusTrace" : "Error: ENOENT: no such file or directory, open '../config/output/downloads/AT_TC001 - 21.0.0.xml'\n                    at Object.openSync (fs.js:440:3)\n                    at Object.readFileSync (fs.js:342:35)\n                    at Object.parseModifyXml (C:\\Work\\GitHub\\AutomatedTests\\framework\\actionDefinitions\\dpActions.js:66:23)\n                    at Test.<anonymous> (C:\\Work\\GitHub\\AutomatedTests\\ftosCore\\testScenarios\\deploymentPackage\\TC001_createExportDP.js:29:19)\n                    at Context.test.fn (C:\\Work\\GitHub\\AutomatedTests\\node_modules\\codeceptjs\\lib\\scenario.js:78:14)\n                    at callFnAsync (C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runnable.js:386:21)\n                    at Test.Runnable.run (C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runnable.js:330:7)\n                    at Runner.runTest (C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runner.js:621:10)\n                    at C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runner.js:745:12\n                    at next (C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runner.js:538:14)\n                    at C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runner.js:548:7\n                    at next (C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runner.js:430:14)\n                    at cbHookRun (C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runner.js:495:7)\n                    at done (C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runnable.js:302:5)\n                    at C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runnable.js:363:11",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "ENOENT: no such file or directory, open '../config/output/downloads/AT_TC001 - 21.0.0.xml'",
+    "statusTrace" : "Error: ENOENT: no such file or directory, open '../config/output/downloads/AT_TC001 - 21.0.0.xml'\n                    at Object.openSync (fs.js:440:3)\n                    at Object.readFileSync (fs.js:342:35)\n                    at Object.parseModifyXml (C:\\Work\\GitHub\\AutomatedTests\\framework\\actionDefinitions\\dpActions.js:66:23)\n                    at Test.<anonymous> (C:\\Work\\GitHub\\AutomatedTests\\ftosCore\\testScenarios\\deploymentPackage\\TC001_createExportDP.js:29:19)\n                    at Context.test.fn (C:\\Work\\GitHub\\AutomatedTests\\node_modules\\codeceptjs\\lib\\scenario.js:78:14)\n                    at callFnAsync (C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runnable.js:386:21)\n                    at Test.Runnable.run (C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runnable.js:330:7)\n                    at Runner.runTest (C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runner.js:621:10)\n                    at C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runner.js:745:12\n                    at next (C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runner.js:538:14)\n                    at C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runner.js:548:7\n                    at next (C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runner.js:430:14)\n                    at cbHookRun (C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runner.js:495:7)\n                    at done (C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runnable.js:302:5)\n                    at C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runnable.js:363:11",
+    "steps" : [ {
+      "name" : "I am on page \"_Designer/Account/LogOn\"",
+      "time" : {
+        "start" : 1622412257297,
+        "stop" : 1622412258173,
+        "duration" : 876
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible {\"class\":\"dx-loadindicator\"}, 20",
+      "time" : {
+        "start" : 1622412258173,
+        "stop" : 1622412258177,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible \"#osloader\", 20",
+      "time" : {
+        "start" : 1622412258177,
+        "stop" : 1622412258185,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible #usernameField, 20",
+      "time" : {
+        "start" : 1622412258185,
+        "stop" : 1622412258190,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I fill field #usernameField, \"host\"",
+      "time" : {
+        "start" : 1622412258298,
+        "stop" : 1622412258688,
+        "duration" : 390
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I fill field \"#passwordField\", \"1234567\"",
+      "time" : {
+        "start" : 1622412258797,
+        "stop" : 1622412259233,
+        "duration" : 436
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for clickable \".btn-login\", 20",
+      "time" : {
+        "start" : 1622412259233,
+        "stop" : 1622412259240,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click \".btn-login\"",
+      "time" : {
+        "start" : 1622412259342,
+        "stop" : 1622412259704,
+        "duration" : 362
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//span[contains(., 'My account')][ancestor::div[@class = 'account-footer']]}, 60",
+      "time" : {
+        "start" : 1622412259704,
+        "stop" : 1622412260113,
+        "duration" : 409
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I am on page \"_Designer/Main#/entity/customizationset/list\"",
+      "time" : {
+        "start" : 1622412260113,
+        "stop" : 1622412261025,
+        "duration" : 912
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible {\"class\":\"dx-loadindicator\"}, 20",
+      "time" : {
+        "start" : 1622412261025,
+        "stop" : 1622412261028,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible \"#osloader\", 20",
+      "time" : {
+        "start" : 1622412261028,
+        "stop" : 1622412261031,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//div[@class = 'dx-datagrid-content']}, 60",
+      "time" : {
+        "start" : 1622412261031,
+        "stop" : 1622412261035,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click \"#InsertBtn\"",
+      "time" : {
+        "start" : 1622412261136,
+        "stop" : 1622412261495,
+        "duration" : 359
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//input[@class = 'dx-texteditor-input'][ancestor::div[@id = 'ebsContainerContent_version']]}, 60",
+      "time" : {
+        "start" : 1622412261495,
+        "stop" : 1622412261752,
+        "duration" : 257
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I fill field {xpath: .//input[@class = 'dx-texteditor-input'][ancestor::div[@id = 'ebsContainerContent_modulename']]}, \"AT_TC001\"",
+      "time" : {
+        "start" : 1622412261855,
+        "stop" : 1622412262313,
+        "duration" : 458
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I fill field {xpath: .//input[@class = 'dx-texteditor-input'][ancestor::div[@id = 'ebsContainerContent_version']]}, \"21.0.0\"",
+      "time" : {
+        "start" : 1622412262426,
+        "stop" : 1622412262854,
+        "duration" : 428
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click \"#RefreshBtn\"",
+      "time" : {
+        "start" : 1622412262966,
+        "stop" : 1622412263308,
+        "duration" : 342
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//*[contains(concat(' ', normalize-space(./@class), ' '), ' jq-icon-success ')][ancestor::*[contains(concat(' ', normalize-space(./@class), ' '), ' jq-toast-wrap ')]]}, 60",
+      "time" : {
+        "start" : 1622412263308,
+        "stop" : 1622412263339,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for clickable {xpath: .//*[contains(concat(' ', normalize-space(./@class), ' '), ' jq-icon-success ')][ancestor::*[contains(concat(' ', normalize-space(./@class), ' '), ' jq-toast-wrap ')]]}, 20",
+      "time" : {
+        "start" : 1622412263339,
+        "stop" : 1622412263345,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible {xpath: .//*[contains(concat(' ', normalize-space(./@class), ' '), ' jq-icon-success ')][ancestor::*[contains(concat(' ', normalize-space(./@class), ' '), ' jq-toast-wrap ')]]}, 20",
+      "time" : {
+        "start" : 1622412263345,
+        "stop" : 1622412266333,
+        "duration" : 2988
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//div[@class = 'dx-datagrid-content'][ancestor::div[@id = 'ebsContainerContent_customizationsetitem_customizationset']]}, 60",
+      "time" : {
+        "start" : 1622412266333,
+        "stop" : 1622412266337,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see in field {xpath: .//input[@class = 'dx-texteditor-input'][ancestor::div[@id = 'ebsContainerContent_modulename']]}, \"AT_TC001\"",
+      "time" : {
+        "start" : 1622412266337,
+        "stop" : 1622412266342,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see in field {xpath: .//input[@class = 'dx-texteditor-input'][ancestor::div[@id = 'ebsContainerContent_version']]}, \"21.0.0\"",
+      "time" : {
+        "start" : 1622412266342,
+        "stop" : 1622412266347,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//div[@id = 'csItemAddBtn'][ancestor::div[@id = 'ebsToolbar']]}, 60",
+      "time" : {
+        "start" : 1622412266347,
+        "stop" : 1622412266348,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: .//div[@id = 'csItemAddBtn'][ancestor::div[@id = 'ebsToolbar']]}",
+      "time" : {
+        "start" : 1622412266452,
+        "stop" : 1622412266796,
+        "duration" : 344
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//input[@class = 'dx-texteditor-input'][ancestor::div[@id = 'typeCtrl']]}, 20",
+      "time" : {
+        "start" : 1622412266796,
+        "stop" : 1622412266801,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: .//input[@class = 'dx-texteditor-input'][ancestor::div[@id = 'typeCtrl']]}",
+      "time" : {
+        "start" : 1622412266905,
+        "stop" : 1622412267308,
+        "duration" : 403
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I fill field {xpath: .//input[@class = 'dx-texteditor-input'][ancestor::div[@id = 'typeCtrl']]}, \"Business Entity\"",
+      "time" : {
+        "start" : 1622412267417,
+        "stop" : 1622412267977,
+        "duration" : 560
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I press key \"Enter\"",
+      "time" : {
+        "start" : 1622412268087,
+        "stop" : 1622412268413,
+        "duration" : 326
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//input[@class = 'dx-texteditor-input'][ancestor::tr[@class = 'dx-row dx-column-lines dx-datagrid-filter-row noselect']]}, 20",
+      "time" : {
+        "start" : 1622412268413,
+        "stop" : 1622412268418,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: .//input[@class = 'dx-texteditor-input'][ancestor::tr[@class = 'dx-row dx-column-lines dx-datagrid-filter-row noselect']]}",
+      "time" : {
+        "start" : 1622412268525,
+        "stop" : 1622412268887,
+        "duration" : 362
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I fill field {xpath: .//input[@class = 'dx-texteditor-input'][ancestor::tr[@class = 'dx-row dx-column-lines dx-datagrid-filter-row noselect']]}, \"AT_BW_AppTaskReqScripts\"",
+      "time" : {
+        "start" : 1622412268998,
+        "stop" : 1622412269692,
+        "duration" : 694
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait 1",
+      "time" : {
+        "start" : 1622412269692,
+        "stop" : 1622412270706,
+        "duration" : 1014
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: .//tr[@aria-rowindex = '1'][ancestor::tbody[@role = 'presentation']]}",
+      "time" : {
+        "start" : 1622412270821,
+        "stop" : 1622412271180,
+        "duration" : 359
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: .//div[@id = 'csDataGridContainer_toolbar_item_1'][ancestor::div[@id = 'ebsToolbar']]}",
+      "time" : {
+        "start" : 1622412271291,
+        "stop" : 1622412271648,
+        "duration" : 357
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//input[@class = 'dx-texteditor-input'][ancestor::div[@id = 'ebsContainerContent_modulename']]}, 20",
+      "time" : {
+        "start" : 1622412271648,
+        "stop" : 1622412271960,
+        "duration" : 312
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[@aria-colindex = '2'][ancestor::tbody[@role = 'presentation']]}, 20",
+      "time" : {
+        "start" : 1622412271961,
+        "stop" : 1622412272136,
+        "duration" : 175
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see element {xpath: .//td[contains(., 'CSEntity#AT_BW_AppTaskReqScripts')]}",
+      "time" : {
+        "start" : 1622412272136,
+        "stop" : 1622412272139,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click \"#RefreshBtn\"",
+      "time" : {
+        "start" : 1622412272248,
+        "stop" : 1622412272595,
+        "duration" : 347
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element \".jq-icon-success\", \"vanish\"",
+      "time" : {
+        "start" : 1622412272595,
+        "stop" : 1622412272607,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//td[@aria-colindex = '2'][ancestor::tbody[@role = 'presentation']]}, 20",
+      "time" : {
+        "start" : 1622412272607,
+        "stop" : 1622412272612,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I handle downloads ",
+      "time" : {
+        "start" : 1622412272612,
+        "stop" : 1622412272613,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible {xpath: .//a[@id = 'ExportCSBtn'][ancestor::div[@class = 'sticky-header-holder']]}, 60",
+      "time" : {
+        "start" : 1622412272613,
+        "stop" : 1622412272615,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click {xpath: .//a[@id = 'ExportCSBtn'][ancestor::div[@class = 'sticky-header-holder']]}",
+      "time" : {
+        "start" : 1622412272721,
+        "stop" : 1622412273080,
+        "duration" : 359
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I am in path \"../config/output/downloads/\"",
+      "time" : {
+        "start" : 1622412273080,
+        "stop" : 1622412273080,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for file \"AT_TC001 - 21.0.0.xml\", 20",
+      "time" : {
+        "start" : 1622412273080,
+        "stop" : 1622412273617,
+        "duration" : 537
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I see file \"AT_TC001 - 21.0.0.xml\"",
+      "time" : {
+        "start" : 1622412273618,
+        "stop" : 1622412273618,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "fa0b7971833ca724",
+      "name" : "Last Seen Screenshot",
+      "source" : "fa0b7971833ca724.png",
+      "type" : "image/png",
+      "size" : 356321
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 48,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Deployment Packages:"
+  }, {
+    "name" : "testClass",
+    "value" : "Deployment Packages:"
+  }, {
+    "name" : "testMethod",
+    "value" : "User can create a Deployment Package, add an Entity component and export it."
+  }, {
+    "name" : "package",
+    "value" : "Deployment Packages:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ae82e959f9772cc7.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,250 @@
+{
+  "uid" : "152e0dd460cbec33",
+  "name" : "User can use shortcuts to save",
+  "fullName" : "Shortcuts:.User can use shortcuts to save",
+  "historyId" : "a5a76bfda78ad2056a91d87fb7180927",
+  "time" : {
+    "start" : 1622417559533,
+    "stop" : 1622417563707,
+    "duration" : 4174
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "actionsBusinessEntity.insertBusinessEntity is not a function",
+  "statusTrace" : "TypeError: actionsBusinessEntity.insertBusinessEntity is not a function\n                    at Test.<anonymous> (C:\\Work\\GitHub\\AutomatedTests\\ftosCore\\testScenarios\\shortcuts\\TC003_SaveShortcuts.js:19:27)\n                    at Context.test.fn (C:\\Work\\GitHub\\AutomatedTests\\node_modules\\codeceptjs\\lib\\scenario.js:78:14)\n                    at callFnAsync (C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runnable.js:386:21)\n                    at Test.Runnable.run (C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runnable.js:330:7)\n                    at Runner.runTest (C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runner.js:621:10)\n                    at C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runner.js:745:12\n                    at next (C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runner.js:538:14)\n                    at C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runner.js:548:7\n                    at next (C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runner.js:430:14)\n                    at cbHookRun (C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runner.js:495:7)\n                    at done (C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runnable.js:302:5)\n                    at C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runnable.js:363:11",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "actionsBusinessEntity.insertBusinessEntity is not a function",
+    "statusTrace" : "TypeError: actionsBusinessEntity.insertBusinessEntity is not a function\n                    at Test.<anonymous> (C:\\Work\\GitHub\\AutomatedTests\\ftosCore\\testScenarios\\shortcuts\\TC003_SaveShortcuts.js:19:27)\n                    at Context.test.fn (C:\\Work\\GitHub\\AutomatedTests\\node_modules\\codeceptjs\\lib\\scenario.js:78:14)\n                    at callFnAsync (C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runnable.js:386:21)\n                    at Test.Runnable.run (C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runnable.js:330:7)\n                    at Runner.runTest (C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runner.js:621:10)\n                    at C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runner.js:745:12\n                    at next (C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runner.js:538:14)\n                    at C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runner.js:548:7\n                    at next (C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runner.js:430:14)\n                    at cbHookRun (C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runner.js:495:7)\n                    at done (C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runnable.js:302:5)\n                    at C:\\Work\\GitHub\\AutomatedTests\\node_modules\\mocha\\lib\\runnable.js:363:11",
+    "steps" : [ {
+      "name" : "I am on page \"_Designer/Account/LogOn\"",
+      "time" : {
+        "start" : 1622417559819,
+        "stop" : 1622417560670,
+        "duration" : 851
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible {\"class\":\"dx-loadindicator\"}, 20",
+      "time" : {
+        "start" : 1622417560671,
+        "stop" : 1622417560674,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible \"#osloader\", 20",
+      "time" : {
+        "start" : 1622417560675,
+        "stop" : 1622417560682,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for visible #usernameField, 20",
+      "time" : {
+        "start" : 1622417560682,
+        "stop" : 1622417560687,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I fill field #usernameField, \"host\"",
+      "time" : {
+        "start" : 1622417560797,
+        "stop" : 1622417561193,
+        "duration" : 396
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I fill field \"#passwordField\", \"1234567\"",
+      "time" : {
+        "start" : 1622417561304,
+        "stop" : 1622417561748,
+        "duration" : 444
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for clickable \".btn-login\", 20",
+      "time" : {
+        "start" : 1622417561748,
+        "stop" : 1622417561753,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I click \".btn-login\"",
+      "time" : {
+        "start" : 1622417561859,
+        "stop" : 1622417562202,
+        "duration" : 343
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for element {xpath: .//span[contains(., 'My account')][ancestor::div[@class = 'account-footer']]}, 60",
+      "time" : {
+        "start" : 1622417562202,
+        "stop" : 1622417562599,
+        "duration" : 397
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I am on page \"_Designer/Main#/entity/entity/list/withTransientEntities?context=9a95a302-c0e5-48f2-9b84-ca2995258399\"",
+      "time" : {
+        "start" : 1622417562599,
+        "stop" : 1622417563702,
+        "duration" : 1103
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible {\"class\":\"dx-loadindicator\"}, 20",
+      "time" : {
+        "start" : 1622417563703,
+        "stop" : 1622417563705,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "I wait for invisible \"#osloader\", 20",
+      "time" : {
+        "start" : 1622417563705,
+        "stop" : 1622417563707,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "bba47b36cb89c984",
+      "name" : "Last Seen Screenshot",
+      "source" : "bba47b36cb89c984.png",
+      "type" : "image/png",
+      "size" : 453653
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 12,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Shortcuts:"
+  }, {
+    "name" : "testClass",
+    "value" : "Shortcuts:"
+  }, {
+    "name" : "testMethod",
+    "value" : "User can use shortcuts to save"
+  }, {
+    "name" : "package",
+    "value" : "Shortcuts:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "152e0dd460cbec33.json",
+  "parameterValues" : [ ]
+}

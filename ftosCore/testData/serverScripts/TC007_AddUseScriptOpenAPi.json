@@ -1,0 +1,18 @@
+{
+  "urlDesigner": "_Designer/Account/LogOn",
+  "urlPortal": "_Portal/Main",
+  "username": "host",
+  "password": "1234567",
+  "workFlowUrl": "_Designer/Main#/entity/workflow/list",
+  "scriptName": "AT_OpenApiScript",
+  "onDemandScriptType": "On demand",
+  "codeFirstPart": "let fintech = importWebApiClient('FTOSOpenApi', '",
+  "codeLastPart": "_Designer/');\ntry {\n    let authToken = fintech.authorize.getToken({\n\t\"client_id\": \"postman\",\n\t\"username\": \"host\",\n\t\"password\": \"1234567\",\n});\n}\ncatch (err) {\n    throw err;\n}\nthrowException('Updated: ' + authToken.email);",
+  "script": "ebs.callActionByName('AT_OpenApiScript');",
+  "endpointName": "AT_OpenApiScript",
+  "updatedCodeFirstPart": "let fintech = importWebApiClient('FTOSOpenApi', '",
+  "updatedCodeLastPart": "_Designer/');\ntry {\n    let authToken = fintech.authorize.getToken({\n\t\"client_id\": \"postman\",\n\t\"username\": \"host\",\n\t\"password\": \"1234567\",\n});\n}\ncatch (err) {\n    throw err;\n}\nthrowException('Updated: ' + authToken.email);",
+  "niceDescription": "This is a nice description.",
+  "firstError": "host@change.me",
+  "secondError": "Updated: host@change.me"
+}

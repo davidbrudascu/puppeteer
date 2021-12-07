@@ -1,0 +1,132 @@
+<CustomizationSet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="AT_TC001 - 21.0.0" moduleName="AT_TC001" type="Basic" version="21.0.0" deployAuditConfig="false">
+  <EmailTemplates />
+  <CustomActions />
+  <OptionSets />
+  <EntityStatuses />
+  <Actions />
+  <ActionGroups />
+  <EntityMenuSections />
+  <DataImportTemplates />
+  <SystemPramaters />
+  <Entities>
+    <Entity name="AT_BW_AppTaskReqScripts" displayName="AT_BW_AppTaskReqScripts" displayCollectionName="AT_BW_AppTaskReqScripts" isIntersect="false" isSystemEntity="false" tableName="AT_BW_AppTaskReqScripts" isAudited="false" showInMenu="false" iconUrl="pe-7s-album" orderIndex="265" primaryAttributeName="Name" primaryAttributeDisplayName="Name" primaryAttributeTableColumnName="Name" primaryAttributeLength="100" defaultEntityStatusName="Active" dataOptimization="false" entityTypeName="platformData" AllowEdit="false" AllowDelete="false" AllowAddAttributes="false" AllowEditAttributes="false" AllowDeleteAttributes="false" AllowAddViews="false" AllowEditViews="false" AllowDeleteViews="false" AllowAddForms="false" AllowEditForms="false" AllowDeleteForms="false" AllowAddExtensions="false" AllowEditExtensions="false" AllowDeleteExtensions="false">
+      <localization>
+        <cultures>
+          <culture name="ro-RO">
+            <keys>
+              <key name="displayName" value="AT_BW_AppTaskReqScripts" />
+              <key name="displayCollectionName" value="AT_BW_AppTaskReqScripts" />
+            </keys>
+          </culture>
+        </cultures>
+      </localization>
+      <Attributes>
+        <Attribute entityName="AT_BW_AppTaskReqScripts" name="AT_BW_AppTaskReqScriptsid" isPrimaryKey="true" isNamedAttribute="false" isIdentity="false" isReadonly="false" isSecurable="false" isLocalizable="false" isExternalId="false" attributeTypeValue="1" precision="0" length="0" displayName="AT_BW_AppTaskReqScriptsid" tableColumnName="AT_BW_AppTaskReqScriptsid" enumRequiredLevel="0" orderIndex="1" maxNumberOfFiles="0" AllowEdit="false" AllowDelete="false">
+          <localization>
+            <cultures>
+              <culture name="ro-RO">
+                <keys>
+                  <key name="displayName" value="AT_BW_AppTaskReqScriptsid" />
+                </keys>
+              </culture>
+            </cultures>
+          </localization>
+        </Attribute>
+        <Attribute entityName="AT_BW_AppTaskReqScripts" name="Name" isPrimaryKey="false" isNamedAttribute="true" isIdentity="false" isReadonly="false" isSecurable="false" isLocalizable="false" isExternalId="false" attributeTypeValue="3" precision="0" length="100" displayName="Name" tableColumnName="Name" enumRequiredLevel="0" orderIndex="2" maxNumberOfFiles="0" AllowEdit="false" AllowDelete="false">
+          <localization>
+            <cultures>
+              <culture name="ro-RO">
+                <keys>
+                  <key name="displayName" value="Name" />
+                </keys>
+              </culture>
+            </cultures>
+          </localization>
+        </Attribute>
+        <Attribute entityName="AT_BW_AppTaskReqScripts" name="ScriptSuccess" isPrimaryKey="false" isNamedAttribute="false" isIdentity="false" isReadonly="false" isSecurable="false" isLocalizable="false" isExternalId="false" attributeTypeValue="9" precision="0" length="0" displayName="ScriptSuccess" tableColumnName="ScriptSuccess" enumRequiredLevel="0" orderIndex="10" maxNumberOfFiles="0" AllowEdit="false" AllowDelete="false">
+          <localization>
+            <cultures>
+              <culture name="ro-RO">
+                <keys>
+                  <key name="displayName" value="ScriptSuccess" />
+                </keys>
+              </culture>
+            </cultures>
+          </localization>
+        </Attribute>
+      </Attributes>
+      <Relationships />
+      <EntityExtensions />
+      <EntityForms>
+        <EntityForm entityName="AT_BW_AppTaskReqScripts" name="default" isDefault="true" isDefaultEdit="true" isSystem="false" renderTabsAsBullets="true" stickyHeaderItems="true" wizardMode="false" description="" isUserJourney="false" showTooltipsValue="0" autoGenerateTemplate="true" autoGenerateTemplateTypeValue="0" creationVersion="20.1.5.0" AllowEdit="false" AllowDelete="false">
+          <WizardOptions />
+          <Template>
+                    &lt;div class="row"&gt;
+                        &lt;div class="col-xs-12"&gt;
+                            &lt;h4&gt;{ AT_BW_AppTaskReqScripts | entity }&lt;/h4&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;&lt;div class="row"&gt;&lt;div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 form-label" data-label-for="Name"&gt;{ Name | attribute}&lt;/div&gt;
+    &lt;div class="col-lg-8 col-md-8 col-sm-8 col-xs-12"&gt;{Name}&lt;/div&gt;&lt;/div&gt;&lt;div class="row"&gt;&lt;div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 form-label" data-label-for="ScriptSuccess"&gt;{ ScriptSuccess | attribute}&lt;/div&gt;
+    &lt;div class="col-lg-8 col-md-8 col-sm-8 col-xs-12"&gt;{ScriptSuccess}&lt;/div&gt;&lt;/div&gt;&lt;div class="row"&gt;&lt;div class="col-xs-12"&gt;&lt;hr /&gt;&lt;/div&gt;&lt;/div&gt;</Template>
+          <HeaderItems />
+          <EntityFormEntityExtensions />
+          <FooterItems />
+          <FilteredFields />
+          <OptionFields />
+          <Sections />
+          <EntityFormSectionRules />
+          <AllowedAttributes />
+          <AllowedVirtualAttributes />
+        </EntityForm>
+      </EntityForms>
+      <EntityViews>
+        <EntityView entityName="AT_BW_AppTaskReqScripts" name="default" isDefault="true" showViewButton="false" data="Name" AllowEdit="false" AllowDelete="false" isSystem="false" showDisplayNameAsTitle="false">
+          <SortExpression>Name*asc</SortExpression>
+          <EntityViewColumns />
+          <EntityViewParameters />
+        </EntityView>
+      </EntityViews>
+      <EntityUniqueConstraints />
+      <CreateDefaultForm>false</CreateDefaultForm>
+      <CreateDefaultEditForm>false</CreateDefaultEditForm>
+      <CreateDefaultView>false</CreateDefaultView>
+    </Entity>
+  </Entities>
+  <EntityExtensions />
+  <Forms />
+  <Views />
+  <Attributes />
+  <Charts />
+  <Dashboards />
+  <Reports />
+  <Workflows />
+  <WorkflowLibraries />
+  <DocumentReports />
+  <BusinessWorkflows />
+  <BWConfigs />
+  <Relationships />
+  <ClientScriptLibraries />
+  <HtmlWidgets />
+  <StyleSheets />
+  <MenuItems />
+  <UserCompetences />
+  <UserCompetenceTypes />
+  <PowerBIReports />
+  <CodeBlocks />
+  <LookupCorrelationAttributes />
+  <BusinessDataModels />
+  <DBTasks />
+  <PortalProfiles />
+  <DigitalJourneys />
+  <Formulas />
+  <CoefficientValues />
+  <WebApiClientLibraries />
+  <Sequencers />
+  <DataConfigDefinitions />
+  <DataMappings />
+  <Applications />
+  <ScheduleTriggers />
+  <EntityUniqueConstraints />
+  <CustomPageTemplates />
+  <AuthOperationTypes />
+</CustomizationSet>
