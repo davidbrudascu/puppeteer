@@ -4,7 +4,7 @@ const constants = require('~config/constants');
 const commonActions = require('~actions/commonActions');
 const portalProfileActions = require('~actions/portalProfileActions');
 // eslint-disable-next-line import/no-unresolved
-const webConfigActions = require('~actions/webConfigActions');
+// const webConfigActions = require('~actions/webConfigActions');
 // Data
 const data = require('~data/portalProfile/TC002_EditPortalProfile.json');
 // Verify

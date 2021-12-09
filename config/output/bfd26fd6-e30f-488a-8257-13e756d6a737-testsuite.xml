@@ -1,0 +1,40 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1639043258116' stop='1639043258504'>
+    <name>Approval Tasks :</name>
+    <title>Approval Tasks :</title>
+    <test-cases>
+        <test-case start='1639043258116' status='failed' stop='1639043258359'>
+            <name>Approve a request with IsAdvisory=True, Competence Approval Mode=Any with 2 Users/1 User Competence which has an After Script.</name>
+            <title>Approve a request with IsAdvisory=True, Competence Approval Mode=Any with 2 Users/1 User Competence which has an After Script.</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1639043258357' status='failed' stop='1639043258358'>
+                    <name>I am on page "_Portal/Account/LogOn"</name>
+                    <title>I am on page "_Portal/Account/LogOn"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='5de114b2-74fe-43b8-aa5d-773f91fb7d87-attachment.png' type='image/png' size='7057'/>
+            </attachments>
+            <failure>
+                <message>Protocol error (Page.navigate): Cannot navigate to invalid URL</message>
+                <stack-trace>Error: Protocol error (Page.navigate): Cannot navigate to invalid URL
+                    at /home/davidbrudascu/puppeteer/puppeteer/node_modules/puppeteer/lib/cjs/common/Connection.js:181:63
+                    at new Promise (&lt;anonymous>)
+                    at CDPSession.send (/home/davidbrudascu/puppeteer/puppeteer/node_modules/puppeteer/lib/cjs/common/Connection.js:180:16)
+                    at navigate (/home/davidbrudascu/puppeteer/puppeteer/node_modules/puppeteer/lib/cjs/common/FrameManager.js:89:47)
+                    at FrameManager.navigateFrame (/home/davidbrudascu/puppeteer/puppeteer/node_modules/puppeteer/lib/cjs/common/FrameManager.js:72:13)
+                    at Frame.goto (/home/davidbrudascu/puppeteer/puppeteer/node_modules/puppeteer/lib/cjs/common/FrameManager.js:296:41)
+                    at Frame.&lt;anonymous> (/home/davidbrudascu/puppeteer/puppeteer/node_modules/puppeteer/lib/cjs/common/helper.js:110:27)
+                    at Page.goto (/home/davidbrudascu/puppeteer/puppeteer/node_modules/puppeteer/lib/cjs/common/Page.js:749:53)
+                    at Page.&lt;anonymous> (/home/davidbrudascu/puppeteer/puppeteer/node_modules/puppeteer/lib/cjs/common/helper.js:110:27)
+                    at Puppeteer.amOnPage (/home/davidbrudascu/puppeteer/puppeteer/node_modules/codeceptjs/lib/helper/Puppeteer.js:630:21)
+                    at Step.run (/home/davidbrudascu/puppeteer/puppeteer/node_modules/codeceptjs/lib/step.js:122:47)
+                    at /home/davidbrudascu/puppeteer/puppeteer/node_modules/codeceptjs/lib/actor.js:134:23</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

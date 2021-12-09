@@ -1,0 +1,45 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1639043298655' stop='1639043299054'>
+    <name>Custom Theme:</name>
+    <title>Custom Theme:</title>
+    <test-cases>
+        <test-case start='1639043298655' status='failed' stop='1639043298923'>
+            <name>User can add custom icons to an entity in Portal Menu</name>
+            <title>User can add custom icons to an entity in Portal Menu</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1639043298892' status='failed' stop='1639043298923'>
+                    <name>I am on page "http://localhost/21_2_1_1_Portal/Main"</name>
+                    <title>I am on page "http://localhost/21_2_1_1_Portal/Main"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='c89870c5-841e-4980-bcc4-013de95d1607-attachment.png' type='image/png' size='7057'/>
+            </attachments>
+            <failure>
+                <message>net::ERR_CONNECTION_REFUSED at http://localhost/21_2_1_1_Portal/Main</message>
+                <stack-trace>Error: net::ERR_CONNECTION_REFUSED at http://localhost/21_2_1_1_Portal/Main
+                    at navigate (/home/davidbrudascu/puppeteer/puppeteer/node_modules/puppeteer/lib/cjs/common/FrameManager.js:96:23)
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async FrameManager.navigateFrame (/home/davidbrudascu/puppeteer/puppeteer/node_modules/puppeteer/lib/cjs/common/FrameManager.js:71:21)
+                    at async Frame.goto (/home/davidbrudascu/puppeteer/puppeteer/node_modules/puppeteer/lib/cjs/common/FrameManager.js:296:16)
+                    at async Page.goto (/home/davidbrudascu/puppeteer/puppeteer/node_modules/puppeteer/lib/cjs/common/Page.js:749:16)
+                    at async Puppeteer.amOnPage (/home/davidbrudascu/puppeteer/puppeteer/node_modules/codeceptjs/lib/helper/Puppeteer.js:630:5)
+                    at async Object.clickProfileMenu (/home/davidbrudascu/puppeteer/puppeteer/framework/actionDefinitions/commonActions.js:649:22)
+                    at async Object.logoutFromApp (/home/davidbrudascu/puppeteer/puppeteer/framework/actionDefinitions/commonActions.js:69:5)
+                    at async Test.&lt;anonymous> (/home/davidbrudascu/puppeteer/puppeteer/ftosCore/testScenarios/customTheme/TC004_EditCustomIcons.js:26:5)
+                  -- ASYNC --
+                    at Frame.&lt;anonymous> (/home/davidbrudascu/puppeteer/puppeteer/node_modules/puppeteer/lib/cjs/common/helper.js:109:19)
+                    at Page.goto (/home/davidbrudascu/puppeteer/puppeteer/node_modules/puppeteer/lib/cjs/common/Page.js:749:53)
+                    at Page.&lt;anonymous> (/home/davidbrudascu/puppeteer/puppeteer/node_modules/puppeteer/lib/cjs/common/helper.js:110:27)
+                    at Puppeteer.amOnPage (/home/davidbrudascu/puppeteer/puppeteer/node_modules/codeceptjs/lib/helper/Puppeteer.js:630:21)
+                    at Step.run (/home/davidbrudascu/puppeteer/puppeteer/node_modules/codeceptjs/lib/step.js:122:47)
+                    at /home/davidbrudascu/puppeteer/puppeteer/node_modules/codeceptjs/lib/actor.js:134:23</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
