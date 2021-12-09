@@ -8,12 +8,6 @@ exports.config = {
     grabConsoleErrors: {
       require: '../helpers/grabConsoleErrors.js',
     },
-    ResembleHelper: {
-      require: 'codeceptjs-resemblehelper',
-      screenshotFolder: './output/',
-      baseFolder: './screenshots/base/',
-      diffFolder: './screenshots/diff/',
-    },
     FileSystem: {
       pathPortal: 'path-to-Portal',
       pathPortalProfile: 'path-to-PortalProfile',

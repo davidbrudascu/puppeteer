@@ -9,6 +9,8 @@
   "main": "index.js",
   "scripts": {
     "empty-output": "@powershell Remove-Item ./config/output/* -Recurse -Force;",
+    "make-dir": "mkdir ./config/output",
+    "test": "npx codeceptjs run --steps",
     "test-local": "npm run empty-output && npx codeceptjs run -c ./config/local.conf.js --steps --plugins allure",
     "test-tag": "npm run empty-output && npx codeceptjs run -c ./config/local.conf.js --steps --plugins allure --grep",
     "allure-generate": "npx allure generate -o ./config/output/allure/ ./config/output/",
@@ -30,12 +32,12 @@
   "dependencies": {
     "codeceptjs": "^3.0.7",
     "codeceptjs-assert": "0.0.4",
-    "codeceptjs-resemblehelper": "^1.9.3",
     "exceljs": "^4.2.0",
     "html-minifier": "4.0.0",
     "lighthouse": "^7.3.0",
     "link-module-alias": "1.2.0",
     "puppeteer": "5.0.0",
+    "resemblejs": "^4.0.0",
     "xmldom": "^0.6.0"
   },
   "_moduleAliases": {
