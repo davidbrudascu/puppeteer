@@ -8,7 +8,7 @@ name: Deploy Automated Tests QA
 
 on:
   schedule:
-    - cron: '*/2 1 * * *'
+    - cron: "1 * * * *"
 
 env:
   GITHUB_SHA: ${{ github.sha }}
