@@ -1,8 +1,19 @@
-name: Test Puppeteer
+# name: Test Puppeteer
+# on:
+#   push:
+#     branches:
+#       - master
+
+name: Deploy Automated Tests QA
+
 on:
-  push:
-    branches:
-      - master
+  schedule:
+    - cron: '0 1 * * *'
+
+env:
+  GITHUB_SHA: ${{ github.sha }}
+  ARCHIVE: FTOS
+
 
 jobs:
   build:
@@ -17,5 +28,98 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: ${{ matrix.node }}
-      - run: npm install
-      - run: npm run test
+      - run: echo "This is sha"
+      - run: echo {{ github.sha }}
+
+# jobs:
+  # cancel:
+  #   name: 'Cancel Previous Runs'
+  #   runs-on: ubuntu-latest
+  #   timeout-minutes: 3
+  #   steps:
+  #     - uses: styfle/cancel-workflow-action@0.9.0
+  #       with:
+  #         all_but_latest: true
+  #         access_token: ${{ github.token }}
+
+  # setup-build:
+  #   needs: [cancel]
+  #   runs-on: [self-hosted, windows]
+  #   steps:
+  #     - uses: actions/checkout@v2
+
+  #     - name: Get the version
+  #       id: get_version
+  #       run: |
+  #         $SOURCE_TAG = Get-ChildItem EBS.Core.Web.MVC\InstallFiles | where {$_.name -match "_"} |  sort { [version]($_.Name -replace '_', '.') } -Descending |select -Index 0 | Select-Object @{Name = "Name"; Expression = {$_.name -replace "_","."}} |Select-Object Select -ExpandProperty Name
+  #         $version = $SOURCE_TAG
+  #         [System.Collections.ArrayList]$tokens = ($version -split "\.")
+  #         $more = 4 - $tokens.Count
+  #         for ($i=0; $i -lt $more; $i++) {
+  #             $tokens.Add("0")
+  #         }
+  #         $version = $tokens -Join "."
+  #         $SOURCE_TAG = "v${version}"
+  #         echo "::set-output name=VERSION::$SOURCE_TAG"
+  #     - name: Inject Version
+  #       run: |
+  #         (Get-Content .\SCM.AssemblyInfo.cs) -replace '\[assembly: AssemblyTitle\(\"\"\)\]', "[assembly: AssemblyTitle(`"${{ github.sha }}`")]" | Set-Content .\SCM.AssemblyInfo.cs
+  #         (Get-Content .\SCM.AssemblyInfo.cs) -replace '\[assembly: AssemblyCopyright\(.*', "[assembly: AssemblyCopyright(`"Copyright c $(Get-Date -UFormat %Y) FintechOS`")]" | Set-Content .\SCM.AssemblyInfo.cs
+  #         (Get-Content .\SCM.AssemblyInfo.cs) -replace '\[assembly: AssemblyFileVersion\(.*', "[assembly: AssemblyFileVersion(`"$('${{ steps.get_version.outputs.VERSION}}'.Substring(1))`")]" | Set-Content .\SCM.AssemblyInfo.cs
+  #     - name: Nuget Restore
+  #       run: |
+  #         nuget restore EBS.Core.sln
+  #     - name: Generic Build 
+  #       run: |
+  #         msbuild ".\EBS.Core.sln" /nologo /nr:False /m:1 /restore /verbosity:quiet
+  #     - name: Build Studio
+  #       run: |
+  #         msbuild ".\EBS.Core.sln" /verbosity:quiet /nologo /nr:False /m:1 `
+  #             /p:DefineConstants="FINTECHOS_DESIGNER" `
+  #             /p:OutDir="$(pwd)\bin"
+  #     - name: Build Portal
+  #       run: |
+  #         msbuild ".\EBS.Core.sln" /verbosity:quiet /nologo /nr:False /m:1 `
+  #             /p:OutDir="$(pwd)\binPortal"
+  #     - name: Package
+  #       run: |
+  #         $env:GITHUB_SHA="${{github.sha}}"; $env:SCM_VERSION="${{ steps.get_version.outputs.VERSION }}".Substring(1); powershell .\package.ps1
+  #         tar -cvzf dist.tar.gz dist
+  #     - name: Upload Artifacts
+  #       uses: actions/upload-artifact@v2
+  #       with:
+  #         retention-days: 5
+  #         name: dist.tar.gz
+  #         path: |
+  #           .\dist.tar.gz
+  #     - name: Create Archive
+  #       run: |
+  #         Compress-Archive -Path .\dist\* -DestinationPath ${{ env.ARCHIVE }}-master.zip
+  #     - name: Azure Login
+  #       uses: azure/login@v1
+  #       with:
+  #         creds: ${{ secrets.AZURE_CREDENTIALS }}
+
+  #     - name: Upload to Storage Account DEVOPS
+  #       run: |
+  #         az storage blob upload -c ftoscore --subscription ${{ secrets.AZURE_DEVOPS_STORAGE_SID }} --account-name azftoskitdevops --account-key ${{ secrets.AZURE_DEVOPS_STORAGE_KEY1 }} --file ${{ env.ARCHIVE }}-master.zip --name ${{ env.ARCHIVE }}-master.zip
+
+  # deploy-paas:
+  #   runs-on: ubuntu-latest
+  #   needs: [setup-build]
+  #   steps:
+  #     - name: Trigger Azure DevOps Pipeline
+  #       uses: fjogeleit/http-request-action@master
+  #       with:
+  #         url: 'https://dev.azure.com/FintechOS-ManagedServices/ftos-cloud-operations/_apis/pipelines/76/runs?api-version=6.1-preview.1'
+  #         method: 'POST'
+  #         username: ${{ secrets.AZURE_DEVOPS_USERNAME }}
+  #         password: ${{ secrets.AZURE_DEVOPS_PASSWORD }}
+  #         contentType: 'application/json'
+  #         data: |
+  #           { "templateParameters": {
+  #                 "ftoskit": "${{ env.ARCHIVE }}-master.zip",
+  #                 "rg": "RG-FTOS-Master-QA",
+  #                 "projectName": "ftosmaster"
+  #             }
+  #           }
