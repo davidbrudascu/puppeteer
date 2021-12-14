@@ -8,12 +8,12 @@ env:
 jobs:
   build:
     runs-on: windows-latest
-    name: Node ${{ matrix.node }} sample
+    name: Node test
     steps:
       - uses: actions/checkout@v2
       - name: Setup node
         uses: actions/setup-node@v2
         with:
-          node-version: '14'
+          node-version: '16'
       - run: npm install
       - run: npm run test

@@ -10,7 +10,7 @@
   "scripts": {
     "empty-output": "@powershell Remove-Item ./config/output/* -Recurse -Force;",
     "make-dir": "mkdir ./config/output",
-    "test": "npx codeceptjs run --steps",
+    "test": "npx codeceptjs run -c ./config/codecept.conf.js --steps",
     "test-local": "npm run empty-output && npx codeceptjs run -c ./config/local.conf.js --steps --plugins allure",
     "test-tag": "npm run empty-output && npx codeceptjs run -c ./config/local.conf.js --steps --plugins allure --grep",
     "allure-generate": "npx allure generate -o ./config/output/allure/ ./config/output/",
