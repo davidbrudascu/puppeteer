@@ -1,7 +1,7 @@
 // Actions
 const commonActions = require('~actions/commonActions');
 const customThemeActions = require('~actions/customThemeActions');
-// const webConfigActions = require('~actions/webConfigActions');
+const webConfigActions = require('~actions/webConfigActions');
 // Data
 const data = require('~data/customTheme/TC002_EditCustomTheme.json');
 

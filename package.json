@@ -1,32 +1,51 @@
 {
-  "name": "test-framework-clean",
+  "name": "ftos-automated-tests",
   "version": "1.0.0",
-  "description": "FintechOS Automation Test Framework",
+  "description": "FTOS CodeceptJS automated test suite. RT = RegressionTests ; ST = Smoke Tests",
+  "keywords": [],
+  "author": "",
+  "license": "Proprietary",
+  "private": true,
   "main": "index.js",
   "scripts": {
-    "install-framework": "npm run remove-git && npm install",
-    "empty-output": "@powershell Remove-Item ./output/* -Recurse -Force;",
-    "remove-git": "@powershell Remove-Item .git/ -Recurse -Force;",
-    "test": "npm run empty-output && npx codeceptjs run --steps",
-    "test-git-action": "npx codeceptjs run --steps",
-    "test-pause": "npm run empty-output && npx codeceptjs run --steps -p pauseOnFail",
-    "test-allure": "npm run empty-output && npx codeceptjs run --steps -p allure",
-    "allure": "D:\\tools\\allure-2.14.0\\bin\\allure serve ./output/",
-    "postinstall": "link-module-alias"
+    "empty-output": "@powershell Remove-Item ./config/output/* -Recurse -Force;",
+    "make-dir": "mkdir ./config/output",
+    "test": "npx codeceptjs run --steps",
+    "test-local": "npm run empty-output && npx codeceptjs run -c ./config/local.conf.js --steps --plugins allure",
+    "test-tag": "npm run empty-output && npx codeceptjs run -c ./config/local.conf.js --steps --plugins allure --grep",
+    "allure-generate": "npx allure generate -o ./config/output/allure/ ./config/output/",
+    "allure-serve": "npx allure serve ./config/output/",
+    "generate-defs": "npx codeceptjs def ./config/",
+    "postinstall": "npx link-module-alias"
   },
-  "author": "alex-",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "http://fin-tfs:8080/tfs/eBusiness/_git/AutomatedTests"
+  },
+  "devDependencies": {
+    "@codeceptjs/helper": "^1.0.2",
+    "eslint": "6.8.0",
+    "eslint-config-airbnb-base": "14.1.0",
+    "eslint-plugin-codeceptjs": "1.3.0",
+    "eslint-plugin-import": "2.20.2"
+  },
   "dependencies": {
     "codeceptjs": "^3.0.7",
     "codeceptjs-assert": "0.0.4",
-    "html-minifier": "^4.0.0",
-    "link-module-alias": "^1.2.0",
-    "puppeteer": "5.0.0"
+    "exceljs": "^4.2.0",
+    "html-minifier": "4.0.0",
+    "lighthouse": "^7.3.0",
+    "link-module-alias": "1.2.0",
+    "puppeteer": "5.0.0",
+    "resemblejs": "^4.0.0",
+    "xmldom": "^0.6.0"
   },
   "_moduleAliases": {
     "~root": ".",
-    "~config": "./Automation-CoreFunctions",
-    "~actions": "./Automation-CoreFunctions/actionDefinitions",
-    "~pages": "./Automation-CoreFunctions/page"
+    "~config": "./config",
+    "~actions": "./framework/actionDefinitions",
+    "~pages": "./framework/page",
+    "~data": "./ftosCore/testData",
+    "~scenarios": "./ftosCore/testScenarios"
   }
 }
